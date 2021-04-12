@@ -1,18 +1,38 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using ioc.getAlive.Core;
 
-public class SplashController : MonoBehaviour
+namespace ioc.getAlive.Controller
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public class SplashController : Singleton<SplashController>
 
-    // Update is called once per frame
-    void Update()
     {
-        
+        protected void Start()
+        {
+            StartCoroutine("CargarMenu");
+        }
+
+
+        private void Update()
+        {
+
+        }
+
+
+        IEnumerator CargarMenu()
+        {
+            yield return new WaitForSeconds(2.0f);
+
+            SceneManager.LoadScene("MainMenu");
+
+
+        }
+
+
+
+
+
     }
 }
