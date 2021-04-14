@@ -51,6 +51,27 @@ namespace ioc.getAlive.Controller
                 anim.SetBool("Run", false);
             }
 
+            // si presiono la tecla enter dispara
+            if (Input.GetKey("return"))
+            {
+                anim.SetBool("Fire", true);
+                
+            }
+
+            else if (!Input.GetKey("return"))
+            {
+                anim.SetBool("Fire", false);
+            }
+
+
+
+
+
+
+
+
+
+
             if (Input.GetKey("space")&& checkground.isGrounded)
             {
                 rb2D.velocity = new Vector2(rb2D.velocity.x, JumpSpeed);
