@@ -14,11 +14,15 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 direction = John.transform.position - transform.position;
+        if (!John==null)
+        {
+            Vector2 direction = John.transform.position - transform.position;
 
-        if (direction.x >= 0.0f) transform.eulerAngles = new Vector3(0, 180, 0);
-        else transform.eulerAngles = new Vector3(0, 0, 0);
+            if (direction.x >= 0.0f) transform.eulerAngles = new Vector3(0, 180, 0);
+            else transform.eulerAngles = new Vector3(0, 0, 0);
 
+        }
+        
 
 
 
