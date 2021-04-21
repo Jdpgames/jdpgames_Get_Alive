@@ -4156,7 +4156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 514196621}
   m_Layer: 0
-  m_Name: plataformas
+  m_Name: Plataformas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6302,7 +6302,7 @@ GameObject:
   - component: {fileID: 2060065839}
   - component: {fileID: 2060065838}
   m_Layer: 0
-  m_Name: Puerta_01
+  m_Name: Puerta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
