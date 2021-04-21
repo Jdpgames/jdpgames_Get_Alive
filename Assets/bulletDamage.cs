@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageObject : MonoBehaviour
+public class bulletDamage : MonoBehaviour
 {
     public int CantidadDaño = 1;
-    public Transform spawnPoint;
+
     void Start()
     {
         
@@ -20,16 +20,18 @@ public class DamageObject : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == ("Player"))
+        if (other.tag == ("Enemy"))
         {
-            other.GetComponent<PlayerHealth>().RestarVida(CantidadDaño);
-            other.transform.position = spawnPoint.position;
+            other.GetComponent<EnemyHealth>().RestarVidaEnemigo(CantidadDaño);
+            // si quiero que la bala se destruya al impactar: Destroy(gameObject);
 
-            //Destroy(other.gameObject);
+
 
         }
 
     }
+
+
 
 
     }

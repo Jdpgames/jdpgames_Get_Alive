@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2348012106956965895}
   - component: {fileID: 2348012106956965894}
   - component: {fileID: 2348012106956965891}
-  - component: {fileID: 2348012106956965892}
   - component: {fileID: 2348012106956965890}
   - component: {fileID: 2348012106956965889}
+  - component: {fileID: -5403538637050947280}
   m_Layer: 0
   m_Name: Enemy_Suelo 1
   m_TagString: Untagged
@@ -108,22 +108,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &2348012106956965892
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2348012106956965912}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.19048342, y: -0.08571774}
-  m_Size: {x: 0.49901703, y: 1.1085647}
-  m_Direction: 0
 --- !u!95 &2348012106956965890
 Animator:
   serializedVersion: 3
@@ -158,6 +142,32 @@ MonoBehaviour:
   John: {fileID: 0}
   Firepoint1: {fileID: 7441859728360834531}
   bullet: {fileID: 8203794774873639808, guid: 5fe48c16ac1328645a1b88cb9d56e7d2, type: 3}
+--- !u!61 &-5403538637050947280
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2348012106956965912}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 1.28}
+  m_EdgeRadius: 0
 --- !u!1001 &5974968656708375239
 PrefabInstance:
   m_ObjectHideFlags: 0

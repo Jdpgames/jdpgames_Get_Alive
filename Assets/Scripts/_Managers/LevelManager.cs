@@ -16,7 +16,7 @@ public class LevelManager : Singleton<LevelManager>
 
     void Start()
     {
-        
+        Score = 0;
     }
 
     // Update is called once per frame
@@ -86,15 +86,15 @@ public class LevelManager : Singleton<LevelManager>
 
 
 
-    public void sumarPuntos() { 
-    
+    public void sumarPuntos() {
+        Score += 10;
     }
 
 
 
     public void EnemyDead()
     {
-
+       EnemiesKilled += 1;
     }
 
     public void Respawn()
