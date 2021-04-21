@@ -14,6 +14,7 @@ namespace ioc.getAlive.Managers
             splash,
             MainMenu,
             inGame,
+            inGame2,
             Options,
             gameOver,
             exit
@@ -48,6 +49,13 @@ namespace ioc.getAlive.Managers
             ChangeState(GameState.inGame);
 
         }
+        public void inGame2()
+        {
+            ChangeState(GameState.inGame2);
+
+        }
+
+
 
         public void ToOptions()
         {
@@ -82,6 +90,11 @@ namespace ioc.getAlive.Managers
                 case GameState.inGame:
                     StartCoroutine(Cargar("Level01"));
                     break;
+                case GameState.inGame2:
+                    StartCoroutine(Cargar1("Level02"));
+                    break;
+
+
 
                 case GameState.Options:
                     StartCoroutine( CargarOptions("Options"));
@@ -120,6 +133,20 @@ namespace ioc.getAlive.Managers
 
 
             }
+
+            IEnumerator Cargar1(string cargar)
+            {
+                yield return new WaitForSeconds(1.0f);
+                SceneManager.LoadScene("Level02");
+
+
+            }
+
+
+
+
+
+
             IEnumerator CargarOptions(string cargarOpt)
             {
                 yield return new WaitForSeconds(1.0f);

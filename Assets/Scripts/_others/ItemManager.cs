@@ -6,10 +6,10 @@ public class ItemManager : MonoBehaviour
 {
     public static ItemManager instance;
     public Text text;
-    int score;
+    public int score;
     private void Start()
     {
-        int score = 3;
+        //int score = 3;
 
         if (instance == null)
         {
@@ -55,10 +55,10 @@ public class ItemManager : MonoBehaviour
         {
             Debug.Log(" Level Complete");
 
-
+            LevelManager.Instance.LevelComplete();
             // perfecto esto es el contador de puntos y enemigos abatidos.
 
-            LevelManager.Instance.contadorFinal();
+           // LevelManager.Instance.contadorFinal();
 
             // despues de levelreport, invoca a la siguiente pantalla en 4 segundos.
             Invoke("pasaPantalla", 4);
@@ -67,7 +67,7 @@ public class ItemManager : MonoBehaviour
 
             // esta ultima no me sirve ya.
 
-            Debug.Log(" Pasa Pantalla");
+            //Debug.Log(" Pasa Pantalla");
         }
 
         else if (transform.childCount >= 1)

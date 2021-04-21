@@ -89,11 +89,11 @@ public class LevelManager : Singleton<LevelManager>
 
     public void contadorFinal()
     {
-       
+       /*
         score.text = Score.ToString();
         Enemies.text = EnemiesKilled.ToString();
 
-
+        */
 
 
         // esto ya no me hace falta
@@ -132,6 +132,8 @@ public class LevelManager : Singleton<LevelManager>
 
     public void LevelComplete()
     {
-        //GameManager.Instance.
+        GameManager.Instance.inGame2();
+
+       
     }
 }
