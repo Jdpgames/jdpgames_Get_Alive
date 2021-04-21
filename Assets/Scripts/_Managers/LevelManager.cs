@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using ioc.getAlive.Managers;
 using ioc.getAlive.Core;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class LevelManager : Singleton<LevelManager>
 { 
     public int Score;
     public int EnemiesKilled;
     public GameObject panelPause;
     public static bool GameIspaused = false;
-
+    public Text score;
+    public Text Enemies;
 
 
 
@@ -83,6 +86,25 @@ public class LevelManager : Singleton<LevelManager>
         GameManager.Instance.ToOptions();
 
     }
+
+    public void contadorFinal()
+    {
+       
+        score.text = Score.ToString();
+        Enemies.text = EnemiesKilled.ToString();
+
+
+
+
+        // esto ya no me hace falta
+        /*Debug.Log( score) ;
+         Debug.Log(m_enemiesKilled);*/
+    }
+
+
+
+
+
 
 
 
