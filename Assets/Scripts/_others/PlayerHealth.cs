@@ -7,12 +7,14 @@ public class PlayerHealth : MonoBehaviour
 {
     public GameObject[] Corazones;
     public int vidaInicial = 3;
-   
+    
+
 
 
     void Start()
     {
         vidaInicial = 3;
+        
     }
 
     // Update is called once per frame
@@ -28,13 +30,13 @@ public class PlayerHealth : MonoBehaviour
             
 
 
+
         }
 
 
         if (vidaInicial < 3)
         {
             Destroy(Corazones[2].gameObject);
-
            
 
         }

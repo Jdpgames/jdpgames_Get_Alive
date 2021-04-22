@@ -5,9 +5,8 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int vida = 1;
-   
+    
 
-  
 
 
 

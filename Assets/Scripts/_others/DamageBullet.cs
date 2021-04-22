@@ -23,6 +23,7 @@ public class DamageBullet : MonoBehaviour
         {
             other.GetComponent<PlayerHealth>().RestarVida(CantidadDaño);
 
+            
 
         }
 

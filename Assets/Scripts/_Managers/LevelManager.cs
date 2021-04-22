@@ -16,20 +16,24 @@ public class LevelManager : Singleton<LevelManager>
     public Text Enemies;
     public AudioSource fuenteAudio;
     public AudioClip Dead;
-   
     
+   
+
+
 
 
     void Start()
     {
         Score = 0;
         fuenteAudio.loop = false;
+       
        panelLevelReport.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+       
 
         if (GameIspaused)
         {
@@ -56,7 +60,7 @@ public class LevelManager : Singleton<LevelManager>
 
         }
 
-
+     
         
     }
 
@@ -122,12 +126,12 @@ public class LevelManager : Singleton<LevelManager>
         // todavia no la implemento.
     }
 
-  
+   
+
 
     public void PlayerDead()
     {
-        fuenteAudio.clip = Dead;
-        fuenteAudio.Play();
+        fuenteAudio.PlayOneShot(Dead);
 
         GameManager.Instance.ToGameOver();
     }
