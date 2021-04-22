@@ -4,9 +4,7 @@ namespace ioc.getAlive.Core
 
     public class PersistenSingleton<T> : MonoBehaviour where T : PersistenSingleton<T>
     {
-        /// <summary> /// Singleton design pattern
-        /// </summary>
-        /// <value>The instance.</value>
+        
         public static T Instance
         {
             get { return ((T)SingletonInstance); }

@@ -4,18 +4,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameOverController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
 
+    // al pulsar el boton jugar de nuevo, nos carga el nivel 1.
     public void JugarDeNuevo()
     {
 
@@ -23,7 +24,7 @@ public class GameOverController : MonoBehaviour
 
     }
 
-
+    // al pulsar el boton salir, nos carga el menu principal.
     public void Salir()
     {
 

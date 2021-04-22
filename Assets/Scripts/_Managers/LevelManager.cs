@@ -7,23 +7,19 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class LevelManager : Singleton<LevelManager>
 { 
-    public int Score;
-    public int EnemiesKilled;
-    public GameObject panelPause;
-    public static bool GameIspaused = false;
-    public GameObject panelLevelReport;
-    public Text score;
-    public Text Enemies;
-    
-    
-   
-
+    public int Score;  // variables para llevar el conteo de puntos.
+    public int EnemiesKilled; // variables para llevar el conteo de enemigos abatidos.
+    public GameObject panelPause; // referencia para el panelPausa.
+    public static bool GameIspaused = false; // boleana para saber cuando estará pausado y no.
+    public GameObject panelLevelReport; // // referencia para activar el panelLevelReport.
+    public Text score; // texto que saldra por la UI del juego.
+    public Text Enemies; // texto que saldra por la UI del juego.
 
 
 
     void Start()
     {
-        Score = 0;
+        Score = 0;    // empezamos con 0 puntos y el panel de LevelReport Desactivado.
        
        
        panelLevelReport.SetActive(false);
@@ -32,11 +28,11 @@ public class LevelManager : Singleton<LevelManager>
     // Update is called once per frame
     void Update()
     {
-       
+       // MENU DE PAUSA
 
         if (GameIspaused)
         {
-            panelPause.SetActive(true);
+            panelPause.SetActive(true); // si esta pausado, el juego estara detenido y el panel de pausa estará activado.
 
             Time.timeScale = 0f;
 
@@ -46,16 +42,16 @@ public class LevelManager : Singleton<LevelManager>
 
         else
         {
-            panelPause.SetActive(false);
+            panelPause.SetActive(false); // sino esta pausado, el juego estara en marcha y el panel de pausa estará desactivado.
             Time.timeScale = 1.0f;
 
         }
 
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape)) 
         {
 
-            GameIspaused = !GameIspaused;
+            GameIspaused = !GameIspaused; // si pulso escape, el operador logico dará el valor contrario de la operación.
 
         }
 
@@ -66,7 +62,7 @@ public class LevelManager : Singleton<LevelManager>
 
     public void Continuar()
     {
-        GameIspaused = !GameIspaused;
+        GameIspaused = !GameIspaused; // reanuda el juego y definimos que no estara pausado porque si no, nos sacaria el panel pausa al reanudar.
 
 
 
@@ -74,7 +70,7 @@ public class LevelManager : Singleton<LevelManager>
 
     public void Reiniciar()
     {
-        GameIspaused = !GameIspaused;
+        GameIspaused = !GameIspaused; // reinica el juego y definimos que no estara pausado porque si no, nos sacaria el panel pausa al reiniciar.
         GameManager.Instance.inGame();
 
     }
@@ -82,7 +78,7 @@ public class LevelManager : Singleton<LevelManager>
 
     public void Quit()
     {
-        GameIspaused = !GameIspaused;
+        GameIspaused = !GameIspaused; // Salimos y vamos al menu principal y definimos que no estara pausado porque si no, nos sacaria el panelpausa en la escena de MainMenu.
         GameManager.Instance.ToMainMenu();
 
 
@@ -91,7 +87,7 @@ public class LevelManager : Singleton<LevelManager>
     public void Opciones()
     {
         GameIspaused = !GameIspaused;
-        GameManager.Instance.ToOptions();
+        GameManager.Instance.ToOptions(); // lo mismo que con MainMenu.
 
     }
 
@@ -100,7 +96,7 @@ public class LevelManager : Singleton<LevelManager>
        
 
         score.text = Score.ToString();
-        Enemies.text = EnemiesKilled.ToString();
+        Enemies.text = EnemiesKilled.ToString(); // conectamos Score, con las variables que se actualizan cuando abatimos enemigos.
 
        
 
@@ -110,14 +106,14 @@ public class LevelManager : Singleton<LevelManager>
 
 
     public void sumarPuntos() {
-        Score += 10;
+        Score += 10;  // si abato un enemigo +10
     }
 
 
 
     public void EnemyDead()
     {
-       EnemiesKilled += 1;
+       EnemiesKilled += 1;  //cuento +1 el numero de enemigos abatidos.
     }
 
     public void Respawn()
@@ -132,7 +128,7 @@ public class LevelManager : Singleton<LevelManager>
     {
       
 
-        GameManager.Instance.ToGameOver();
+        GameManager.Instance.ToGameOver(); // si el player muere, LevelManager le manda a cargar la escena gameover que la contiene el GameManager.
     }
 
     public void LevelComplete()
@@ -140,8 +136,8 @@ public class LevelManager : Singleton<LevelManager>
         panelLevelReport.SetActive(true);
 
 
-        GameManager.Instance.inGame2();
+        GameManager.Instance.inGame2(); // si el player gana, LevelManager le manda a cargar la escena 2 que la contiene el GameManager.
 
-       
+
     }
 }
