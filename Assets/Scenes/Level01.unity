@@ -811,7 +811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &99293617
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &121884653
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1138,7 +1138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &148027304
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &212670926
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1731,7 +1731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &254553174
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1969,7 +1969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &336415011
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2313,7 +2313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &403231568
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2430,7 +2430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &426568854
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3408,7 +3408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &566639173
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4068,7 +4068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &749349654
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4384,7 +4384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &826118691
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4917,7 +4917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &918233941
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5070,7 +5070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &939498617
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5284,6 +5284,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1043222758}
   - component: {fileID: 1043222757}
+  - component: {fileID: 1043222760}
+  - component: {fileID: 1043222759}
   m_Layer: 0
   m_Name: Puerta_002 (1)
   m_TagString: Untagged
@@ -5356,6 +5358,53 @@ Transform:
   m_Father: {fileID: 1423389806}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1043222759
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043222756}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.016626835, y: -0.1071699}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 2}
+    newSize: {x: 0.64, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3449129, y: 1.7396119}
+  m_EdgeRadius: 0
+--- !u!50 &1043222760
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043222756}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 50
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1049849018
 GameObject:
   m_ObjectHideFlags: 0
@@ -5731,7 +5780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &1083257183
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6709,7 +6758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &1190425405
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17671,7 +17720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &1904273470
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18151,7 +18200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &2008702937
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18945,7 +18994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 1
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1596834913}
 --- !u!58 &2106253909
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18989,8 +19038,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106442863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 100}
+  m_LocalScale: {x: 0.009259259, y: 0.009259259, z: 0.009259259}
   m_Children:
   - {fileID: 1617868610}
   - {fileID: 38056700}
@@ -19002,8 +19051,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_SizeDelta: {x: 1980, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2106442865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19052,7 +19101,7 @@ Canvas:
   m_GameObject: {fileID: 2106442863}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 2
   m_Camera: {fileID: 845049458}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -19754,7 +19803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451238137093045414, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 71.83
+      value: -5.42
       objectReference: {fileID: 0}
     - target: {fileID: 5451238137093045414, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
       propertyPath: m_LocalPosition.y
