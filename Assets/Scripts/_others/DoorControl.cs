@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorControl : MonoBehaviour
 {
-    // Start is called before the first frame update
+     // al entrar en el trigger el player, se comprobara en el script itemManager si cumple la condicion para ganar.
     private void OnTriggerEnter2D(Collider2D collision)
     {
 

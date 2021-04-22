@@ -16,10 +16,10 @@ public class PatrullaVoladora : MonoBehaviour
        
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        if (MueveObjetivo())
+        if (MueveObjetivo()) // si esta moviendose para el objetivo y esta cerca, direccion del objetivo sera el nuevo objetivo.
         {
             DirectionTarget = SiguienteTarget();
         }
@@ -32,39 +32,39 @@ public class PatrullaVoladora : MonoBehaviour
     private bool MueveObjetivo() // moviendome hacia el objetivo.
     {
 
-        Vector2 distanceVector = patrolPoints[DirectionTarget].position - transform.position; // a que distancia estoy de el.
+        Vector2 distanceVector = patrolPoints[DirectionTarget].position - transform.position; // resto mi posicion a la del target para saber a que distancia estoy de el punto.
 
         if (distanceVector.magnitude<TargetDistance)
         {
            
-            return true; // si hemos llegado al objetivo.
+            return true; // si hemos llegado al objetivo devuelve true.
         }
 
        
         Vector3 velocityVector = distanceVector.normalized;
-        transform.position += velocityVector * Patrolspeed * Time.deltaTime;
+        transform.position += velocityVector * Patrolspeed * Time.deltaTime; // sino, seguirmos moviendonos haacia ese punto.
        
         return false;
 
     }
 
 
-    private int SiguienteTarget()
+    private int SiguienteTarget() // cuando estamos volviendo para el siguiente target.
     {
-        mysprite.flipX = false;
+        mysprite.flipX = false; // mientras no llegues no gira.
         
-        DirectionTarget++;
+        DirectionTarget++; // una vuelta
         
 
 
         if (DirectionTarget>=patrolPoints.Length)
         {
-            mysprite.flipX = true;
-            DirectionTarget = 0;
+            mysprite.flipX = true;  // al pasar por un punto entonces flipea. 
+            DirectionTarget = 0; // si se queda a 0, reinicia las vueltas, para que este infinitamente entre 2 puntos y 0, al llegar a 0, vuelve a sumar hasta 2 etc...
 
         }
 
-        return DirectionTarget;
+        return DirectionTarget; 
     }
 
 
