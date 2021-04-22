@@ -7,6 +7,8 @@ public class JohnFire : MonoBehaviour
     public Transform Firepoint;
     public GameObject bullet;
     private float ColdDown;
+    public AudioClip Attack;
+    public AudioSource fuenteAudio;
     void Start()
     {
         
@@ -20,6 +22,10 @@ public class JohnFire : MonoBehaviour
             Instantiate(bullet, Firepoint.position, Firepoint.rotation);
 
             ColdDown = Time.time;
+
+            fuenteAudio.clip = Attack;
+            fuenteAudio.Play();
+
 
         }
 

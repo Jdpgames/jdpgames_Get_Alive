@@ -11,15 +11,20 @@ public class LevelManager : Singleton<LevelManager>
     public int EnemiesKilled;
     public GameObject panelPause;
     public static bool GameIspaused = false;
+    public GameObject panelLevelReport;
     public Text score;
     public Text Enemies;
-
-
+    public AudioSource fuenteAudio;
+    public AudioClip Dead;
+   
+    
 
 
     void Start()
     {
         Score = 0;
+        fuenteAudio.loop = false;
+       panelLevelReport.SetActive(false);
     }
 
     // Update is called once per frame
@@ -89,23 +94,16 @@ public class LevelManager : Singleton<LevelManager>
 
     public void contadorFinal()
     {
-       /*
+       
+
         score.text = Score.ToString();
         Enemies.text = EnemiesKilled.ToString();
 
-        */
+       
 
 
-        // esto ya no me hace falta
-        /*Debug.Log( score) ;
-         Debug.Log(m_enemiesKilled);*/
+       
     }
-
-
-
-
-
-
 
 
     public void sumarPuntos() {
@@ -121,17 +119,24 @@ public class LevelManager : Singleton<LevelManager>
 
     public void Respawn()
     {
-
+        // todavia no la implemento.
     }
 
+  
 
     public void PlayerDead()
     {
-        //GameManager.Instance.ToGameOver();
+        fuenteAudio.clip = Dead;
+        fuenteAudio.Play();
+
+        GameManager.Instance.ToGameOver();
     }
 
     public void LevelComplete()
     {
+        panelLevelReport.SetActive(true);
+
+
         GameManager.Instance.inGame2();
 
        

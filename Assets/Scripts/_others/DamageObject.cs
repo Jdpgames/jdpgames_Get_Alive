@@ -6,9 +6,11 @@ public class DamageObject : MonoBehaviour
 {
     public int CantidadDaño = 1;
     public Transform spawnPoint;
+    
     void Start()
     {
         
+
     }
 
     // Update is called once per frame
@@ -23,7 +25,10 @@ public class DamageObject : MonoBehaviour
         if (other.tag == ("Player"))
         {
             other.GetComponent<PlayerHealth>().RestarVida(CantidadDaño);
+
+            
             other.transform.position = spawnPoint.position;
+
 
             //Destroy(other.gameObject);
 
@@ -32,4 +37,4 @@ public class DamageObject : MonoBehaviour
     }
 
 
-    }
+}

@@ -136,7 +136,7 @@ namespace ioc.getAlive.Managers
 
             IEnumerator Cargar1(string cargar)
             {
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(4.0f);
                 SceneManager.LoadScene("Level02");
 
 
@@ -157,7 +157,7 @@ namespace ioc.getAlive.Managers
 
             IEnumerator cargarGameOver(string cargarGameO)
             {
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(2.0f);
                 SceneManager.LoadScene("GameOver");
 
             }

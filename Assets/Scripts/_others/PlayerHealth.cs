@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerHealth : MonoBehaviour
 {
     public GameObject[] Corazones;
     public int vidaInicial = 3;
+   
+
 
     void Start()
     {
@@ -22,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
         {
             Destroy(Corazones[1].gameObject);
 
+            
 
 
         }
@@ -31,6 +35,7 @@ public class PlayerHealth : MonoBehaviour
         {
             Destroy(Corazones[2].gameObject);
 
+           
 
         }
 
@@ -46,6 +51,7 @@ public class PlayerHealth : MonoBehaviour
         {   // ultimo corazon de la UI
             Destroy(Corazones[0].gameObject);
 
+            
             // activar Muerte
             Dead();
             // aqui puede ir una funcion con texto de gameOver y dos botones si quiere jugar
@@ -57,8 +63,10 @@ public class PlayerHealth : MonoBehaviour
     public void Dead()
     {
         Destroy(gameObject);
+        LevelManager.Instance.PlayerDead();
 
-        
+
+
     }
 
 

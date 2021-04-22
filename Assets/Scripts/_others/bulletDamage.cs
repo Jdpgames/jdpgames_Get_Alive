@@ -5,7 +5,8 @@ using UnityEngine;
 public class bulletDamage : MonoBehaviour
 {
     public int CantidadDaño = 1;
-
+    public AudioClip HurtEnemy;
+   new public AudioSource audio;
     void Start()
     {
         
@@ -23,7 +24,9 @@ public class bulletDamage : MonoBehaviour
         if (other.tag == ("Enemy"))
         {
             other.GetComponent<EnemyHealth>().RestarVidaEnemigo(CantidadDaño);
-            // si quiero que la bala se destruya al impactar: Destroy(gameObject);
+
+            audio.clip =HurtEnemy;
+            audio.Play();
 
 
 
