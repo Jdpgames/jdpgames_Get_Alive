@@ -5,8 +5,7 @@ using UnityEngine;
 public class bulletDamage : MonoBehaviour
 {
     public int CantidadDaño = 1;
-    public AudioClip HurtEnemy;
-   new public AudioSource audio;
+   
     void Start()
     {
         
@@ -25,9 +24,7 @@ public class bulletDamage : MonoBehaviour
         {
             other.GetComponent<EnemyHealth>().RestarVidaEnemigo(CantidadDaño);
 
-            audio.clip =HurtEnemy;
-            audio.Play();
-
+            
 
 
         }

@@ -7,13 +7,14 @@ using ioc.getAlive.Core;
 
 namespace ioc.getAlive.Managers
 {
-  public class GameManager : PersistenSingleton<GameManager>
+  public class GameManager : PersistenSingleton<GameManager> // modo persistente para que no muera al cambiar de escena.
     { 
+        
         public enum GameState
         {
             splash,
             MainMenu,
-            inGame,
+            inGame,    // definimos los estados de las escenas, nos serviran para referirnos a ellos en los casos del switch.
             inGame2,
             Options,
             gameOver,
@@ -33,9 +34,10 @@ namespace ioc.getAlive.Managers
             
         }
 
+        // Creamos las funciones que nos serviran para referirnos desde otras clases, dentro tienen los casos del switch.
         public void ToSplash()
         {
-            ChangeState(GameState.splash);
+            ChangeState(GameState.splash); 
 
         }
 
@@ -73,7 +75,9 @@ namespace ioc.getAlive.Managers
             ChangeState(GameState.exit);
 
         }
-
+        /* el switch es el gestor de las funciones, segun la funcion que esogemos llama a una corrutina o otra, gracias a los estados,
+        que definimos antes */
+      
         private void ChangeState(GameState newState)
         {
             switch (newState)
@@ -109,7 +113,7 @@ namespace ioc.getAlive.Managers
 
 
             }
-
+            // las corrutinas estan conectadas al cambio de escena a la que nos queremos dirigir.
             IEnumerator Logo(string logo)
             {
                 yield return new WaitForSeconds(1.0f);
@@ -141,9 +145,6 @@ namespace ioc.getAlive.Managers
 
 
             }
-
-
-
 
 
 

@@ -785,7 +785,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3683389939802926510}
+      - m_Target: {fileID: 3683389939802926509}
         m_TargetAssemblyTypeName: ioc.getAlive.Managers.GameManager, Assembly-CSharp
         m_MethodName: ToOptions
         m_Mode: 1
@@ -1102,7 +1102,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1023642687}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3683389939802926509}
+        m_TargetAssemblyTypeName: ioc.getAlive.Managers.GameManager, Assembly-CSharp
+        m_MethodName: ToExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1023642687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1650,7 +1662,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3683389939802926510}
+      - m_Target: {fileID: 3683389939802926509}
         m_TargetAssemblyTypeName: ioc.getAlive.Managers.GameManager, Assembly-CSharp
         m_MethodName: inGame
         m_Mode: 1
@@ -1757,18 +1769,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33b43b0c0e2635e488ba42fbbdfd429a, type: 3}
---- !u!1 &3683389939802926509 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 59115493840943638, guid: 33b43b0c0e2635e488ba42fbbdfd429a, type: 3}
+--- !u!114 &3683389939802926509 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3199021293915496592, guid: 33b43b0c0e2635e488ba42fbbdfd429a, type: 3}
   m_PrefabInstance: {fileID: 3683389939802926508}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3683389939802926510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683389939802926509}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a0f999eaa972ed47a51867814f5dac8, type: 3}

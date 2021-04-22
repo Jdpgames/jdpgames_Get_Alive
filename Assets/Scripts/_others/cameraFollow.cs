@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class cameraFollow : MonoBehaviour
 {
-    public GameObject john;
+    public GameObject john; // el objetivo que seguirá.
 
    
 
-    // Update is called once per frame
+   
     void Update()
-    { // posicion de john en x, altura 0 y -10 en profundidad. 
-        if (john != null)
+    { // camara seguira posicion de john en x, en altura 0 no se movera y en profundida estara en -10. 
+        if (john != null) // siempre que john no este muerto.
         {
 
             transform.position = new Vector3(john.transform.position.x, 0, -10);

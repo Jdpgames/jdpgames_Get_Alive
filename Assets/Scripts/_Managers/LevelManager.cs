@@ -14,8 +14,7 @@ public class LevelManager : Singleton<LevelManager>
     public GameObject panelLevelReport;
     public Text score;
     public Text Enemies;
-    public AudioSource fuenteAudio;
-    public AudioClip Dead;
+    
     
    
 
@@ -25,7 +24,7 @@ public class LevelManager : Singleton<LevelManager>
     void Start()
     {
         Score = 0;
-        fuenteAudio.loop = false;
+       
        
        panelLevelReport.SetActive(false);
     }
@@ -131,7 +130,7 @@ public class LevelManager : Singleton<LevelManager>
 
     public void PlayerDead()
     {
-        fuenteAudio.PlayOneShot(Dead);
+      
 
         GameManager.Instance.ToGameOver();
     }

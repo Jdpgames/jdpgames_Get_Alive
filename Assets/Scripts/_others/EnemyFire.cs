@@ -8,13 +8,11 @@ public class EnemyFire : MonoBehaviour
     private float ColdDown;
     public Transform Firepoint1;
     public GameObject bullet;
-    public AudioClip EnemyAttack;
     
-    AudioSource fuenteAudioEnemy;
 
     void Start()
     {
-        fuenteAudioEnemy = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -55,8 +53,7 @@ public class EnemyFire : MonoBehaviour
                 Instantiate(bullet, Firepoint1.position, Firepoint1.rotation);
 
 
-                fuenteAudioEnemy.clip = EnemyAttack;
-                fuenteAudioEnemy.Play();
+                
 
 
                 ColdDown = Time.time;
