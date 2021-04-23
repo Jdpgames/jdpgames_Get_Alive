@@ -19,6 +19,7 @@ public class JohnFire : MonoBehaviour
         if (Input.GetKey("return")&&Time.time>ColdDown +0.50f)
         {
             Instantiate(bullet, Firepoint.position, Firepoint.rotation);
+            sfx.instance.AudioJohnFire();
 
             ColdDown = Time.time;
 

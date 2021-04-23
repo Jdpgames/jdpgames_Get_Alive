@@ -55,6 +55,7 @@ namespace ioc.getAlive.Controller
             {
                 anim.SetBool("Fire", true); // animación de disparar.
                 
+                
             }
 
             else if (!Input.GetKey("return"))

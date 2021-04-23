@@ -19,6 +19,8 @@ public class LevelManager : Singleton<LevelManager>
 
     void Start()
     {
+        MusicInGame.instance.AudioInGame();
+
         Score = 0;    // empezamos con 0 puntos y el panel de LevelReport Desactivado.
        
        

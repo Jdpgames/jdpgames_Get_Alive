@@ -51,7 +51,7 @@ public class EnemyFire : MonoBehaviour
             if (Time.time>ColdDown+0.50f) // si el tiempo ya es mayor a medio segundo instancia otra bala.
             {
                 Instantiate(bullet, Firepoint1.position, Firepoint1.rotation);
-
+                sfx.instance.AudioEnenmyFire();
 
                 ColdDown = Time.time;
             }

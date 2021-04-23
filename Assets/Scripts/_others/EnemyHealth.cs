@@ -24,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
     public void RestarVidaEnemigo(int cantidad)
     {
         vida -= cantidad;
-
+        sfx.instance.AudioEnenmyHurt();
 
         if (vida <= 0)
         {

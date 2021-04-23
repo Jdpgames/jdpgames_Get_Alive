@@ -22,25 +22,27 @@ public class PlayerHealth : MonoBehaviour
         if (vidaInicial < 2)
         {
             Destroy(Corazones[1].gameObject); // si vida es -2, destruye un corazon.
-
            
+
         }
 
 
         if (vidaInicial < 3)
         {
             Destroy(Corazones[2].gameObject); // si vida es -3, destruye un corazon.
-
+            
 
         }
 
 
     }
 
+    
+
     public void RestarVida(int cantidad)
     {
         vidaInicial -= cantidad; // funcion que llamamos desde otros scripts. resta 1 vida a la vida inicial.
-
+        sfx.instance.AudioJohnHurt();
 
         if (vidaInicial <= 0)
         {   // ultimo corazon de la UI que se destruye.
@@ -58,6 +60,7 @@ public class PlayerHealth : MonoBehaviour
     public void Dead()
     {
         Destroy(gameObject); // destruimos a John y mandamos a llamar a level manager para avisarle que player esta muerto.
+        sfx.instance.AudioJohnDead();
         LevelManager.Instance.PlayerDead();
 
 
