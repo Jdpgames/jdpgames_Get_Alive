@@ -16,16 +16,18 @@ public class Patrulla : MonoBehaviour
         {
 
             myrig.velocity = new Vector2(-speed, myrig.velocity.y); // de inicio se movera para la izquierda.
-
+       
 
         }
 
     private void OnTriggerExit2D(Collider2D other)
-    {
+    {   
         if (other.gameObject.tag=="Suelo") // cuando deja de detectar suelo, multiplicamos su direccion por negativo para girarlo en el otro sentido.
         {
+           
             speed *= -1;
             this.transform.localScale = new Vector2(this.transform.localScale.x * -1, this.transform.localScale.y);
+            
         }
 
 

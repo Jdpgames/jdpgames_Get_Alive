@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class sfx : MonoBehaviour
 {
-    public static sfx instance;
+    public static sfx instance; // instancio esta clase para poder acceder desde otros scripts.
 
     public AudioClip JohnFire;
     public AudioClip JohnHurt;
-    public AudioClip JohnDead;
+    public AudioClip JohnDead; // clips de los  efectos que necesite.
     public AudioClip EnemyFire;
     public AudioClip EnemyHurt;
-
-    public AudioSource Effects;
+    public AudioSource Effects; // el audiosource al que vamos a vincular.
 
     private void Awake()
     {
 
         if (sfx.instance == null)
         {
-            sfx.instance = this;
+            sfx.instance = this;   // instanciamos la clase y aasi nos aseguramos que no habra 2 Musicingame.
         }
         else if (sfx.instance != this)
         {
@@ -31,8 +30,8 @@ public class sfx : MonoBehaviour
     // Audios de player
     public void AudioJohnFire()
     {
-        PlayAudioClip(JohnFire);
-        
+        PlayAudioClip(JohnFire); // Funciones que reproducen los audios y los llamamos desde otras hojas.
+
     }
 
     public void AudioJohnHurt()
@@ -56,9 +55,11 @@ public class sfx : MonoBehaviour
         PlayAudioClip(EnemyHurt);
     }
 
+    
 
 
-    public void PlayAudioClip(AudioClip audioClip)  
+
+    public void PlayAudioClip(AudioClip audioClip)  // Con esta funcion nos ahorraremos de hacer una función de reproducción por cada clip. 
     {
         Effects.clip = audioClip;
         Effects.Play();

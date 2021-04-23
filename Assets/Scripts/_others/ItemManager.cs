@@ -25,7 +25,7 @@ public class ItemManager : MonoBehaviour
     {
         score += coinValue;
         text.text = " " + score.ToString(); // conectamos score a Coinvalue.
-
+        
 
     }
 
