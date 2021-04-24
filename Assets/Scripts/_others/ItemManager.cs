@@ -8,7 +8,7 @@ public class ItemManager : MonoBehaviour
     public Text text;                   // texto que saldra en pantalla.
     public int score;                   // puntos que se tienen que actualizar.
 
-
+    public AudioSource MyAudio;
     private void Start()
     {
        
@@ -20,12 +20,17 @@ public class ItemManager : MonoBehaviour
 
         }
 
+       
+            MyAudio.Stop();
+        
+
+
     }
     public void changeScore(int coinValue)
     {
         score += coinValue;
         text.text = " " + score.ToString(); // conectamos score a Coinvalue.
-        
+        MyAudio.Play();
 
     }
 
