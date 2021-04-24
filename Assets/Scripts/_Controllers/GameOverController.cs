@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+
 public class GameOverController : MonoBehaviour
 {
     
@@ -27,8 +29,8 @@ public class GameOverController : MonoBehaviour
     // al pulsar el boton salir, nos carga el menu principal.
     public void Salir()
     {
-
         SceneManager.LoadScene("MainMenu");
+      
     }
 
 

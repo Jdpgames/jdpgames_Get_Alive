@@ -7,11 +7,35 @@ public class PlayerHealth : MonoBehaviour
 {
     public GameObject[] Corazones; // array de los 3 corazones de la UI.
     public int vidaInicial = 3; // tu numero de vidas.
-    
+    public static PlayerHealth instance;
+
+    private void Awake()
+    {
+
+        if (PlayerHealth.instance == null)
+        {
+            PlayerHealth.instance = this;   // instanciamos la clase y aasi nos aseguramos que no habra 2 Musicingame.
+        }
+        else if (PlayerHealth.instance != this)
+        {
+            Destroy(gameObject);
+        }
+
+
+    }
+
+
+
+
 
     void Start()
     {
+
+
+
         vidaInicial = 3; // empiezas con 3.
+
+
         
     }
 

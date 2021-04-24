@@ -7,18 +7,23 @@ public class Patrulla : MonoBehaviour
     private Rigidbody2D myrig; // ref del rigidbody que vamos a mover.
     public float speed; // variable a la velocidad que lo moveremos.
 
+  
     void Start()
     {
         myrig = GetComponent<Rigidbody2D>(); // vinculamos.
+      
     }
         // Update is called once per frame
-        void Update()
+        void FixedUpdate()
         {
 
             myrig.velocity = new Vector2(-speed, myrig.velocity.y); // de inicio se movera para la izquierda.
+
        
 
         }
+
+
 
     private void OnTriggerExit2D(Collider2D other)
     {   

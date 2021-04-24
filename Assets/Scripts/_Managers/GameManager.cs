@@ -14,6 +14,7 @@ namespace ioc.getAlive.Managers
         {
             splash,
             MainMenu,
+            controles,
             inGame,    // definimos los estados de las escenas, nos serviran para referirnos a ellos en los casos del switch.
             inGame2,
             Options,
@@ -65,6 +66,15 @@ namespace ioc.getAlive.Managers
 
         }
 
+        public void ToControls()
+        {
+            ChangeState(GameState.controles);
+
+        }
+
+
+
+
         public void ToGameOver()
         {
             ChangeState(GameState.gameOver);
@@ -103,6 +113,14 @@ namespace ioc.getAlive.Managers
                 case GameState.Options:
                     StartCoroutine( CargarOptions("Options"));
                     break;
+
+                case GameState.controles:
+                    StartCoroutine(CargarControles("Controles"));
+                    break;
+
+
+
+
 
                 case GameState.gameOver:
                     StartCoroutine(cargarGameOver("GameOver"));
@@ -154,6 +172,15 @@ namespace ioc.getAlive.Managers
                 SceneManager.LoadScene("Options");
 
             }
+
+            IEnumerator CargarControles(string cargarOpt)
+            {
+                yield return new WaitForSeconds(1.0f);
+                SceneManager.LoadScene("Controles");
+
+            }
+
+
 
 
             IEnumerator cargarGameOver(string cargarGameO)

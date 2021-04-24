@@ -26,7 +26,7 @@ public class EnemyVolador : MonoBehaviour
             float distanceX = Mathf.Abs(John.transform.position.x - transform.position.x);  // calculamos la posicion entre john y este enemigo, en X y Y.
             float distanceY = Mathf.Abs(John.transform.position.y - transform.position.y);
 
-            if (distanceX < 1.0f && distanceY < 4.0f && Time.time > ColdDown + 0.75f) // si el rango en X es inferior a 1 y en Y a 4  y ha cumplido el coldDown, dispara.
+            if (distanceX < 1.0f && distanceY < 10.0f && Time.time > ColdDown + 0.75f) // si el rango en X es inferior a 1 y en Y a 4  y ha cumplido el coldDown, dispara.
             {
                 shoot();
 
@@ -38,6 +38,7 @@ public class EnemyVolador : MonoBehaviour
         {
 
             Instantiate(bullet, Firepoint2.position, Firepoint2.rotation); // instancia la bala.
+            sfx.instance.AudioEnenmyFire();
 
         }
 

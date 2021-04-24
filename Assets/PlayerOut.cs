@@ -5,12 +5,7 @@ using UnityEngine;
 public class PlayerOut : MonoBehaviour
 {
     public AudioSource myAudio;
-
-
-    void Start()
-    {
-        
-    }
+    public AudioSource myAudio2;
 
 
 
@@ -18,9 +13,21 @@ public class PlayerOut : MonoBehaviour
     {
       
         if (collision.CompareTag("Player"))
-        {
-            myAudio.Stop();
+            { 
+           
+                myAudio.Stop();
+
+            myAudio2.Stop();
+
 
         }
+
+
+
+      
+
+
+
+
     }
 }

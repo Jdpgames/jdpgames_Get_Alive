@@ -16,6 +16,22 @@ public class cameraFollow : MonoBehaviour
 
             transform.position = new Vector3(john.transform.position.x, 0, -10);
 
+
+
+
         }
+
+        if (john!=null && john.transform.position.x >72.0f)
+        {
+
+            transform.position = new Vector3(72.1f, 0, -10);
+
+
+        }
+
+      
+
+
+
     }
 }
