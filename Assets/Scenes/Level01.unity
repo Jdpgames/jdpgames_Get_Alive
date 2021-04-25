@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 1529693}
   - component: {fileID: 1529694}
   m_Layer: 0
-  m_Name: Platform_01
+  m_Name: Platform_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (9)
+      value: Sierra_016
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -437,7 +437,7 @@ GameObject:
   - component: {fileID: 16009222}
   - component: {fileID: 16009221}
   m_Layer: 5
-  m_Name: Get_Alive_Image
+  m_Name: GetAlive_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -576,7 +576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38056700}
   m_Layer: 5
-  m_Name: Get_Alive_Group
+  m_Name: GetAlives_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 57154846}
   - component: {fileID: 57154848}
   m_Layer: 0
-  m_Name: Platform_01
+  m_Name: Platform_019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -767,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (6)
+      value: Sierra_006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -1138,7 +1138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285581784855799600, guid: 47ea83a9170f30040b0806e9a8b96e1b, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4285581784855799600, guid: 47ea83a9170f30040b0806e9a8b96e1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1154,7 +1154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285581784855799603, guid: 47ea83a9170f30040b0806e9a8b96e1b, type: 3}
       propertyPath: m_Name
-      value: Enemy_volador (2)
+      value: Enemy_volador_002
       objectReference: {fileID: 0}
     - target: {fileID: 4285581784855799612, guid: 47ea83a9170f30040b0806e9a8b96e1b, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -1194,7 +1194,7 @@ GameObject:
   - component: {fileID: 113075240}
   - component: {fileID: 113075241}
   m_Layer: 0
-  m_Name: Platform_20
+  m_Name: Platform_017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1438,7 +1438,7 @@ GameObject:
   - component: {fileID: 121941588}
   - component: {fileID: 121941589}
   m_Layer: 0
-  m_Name: pared (6)
+  m_Name: Pared_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1575,7 +1575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3453779045184467231, guid: a8bf61618dfc52f48b3caca6ad479f29, type: 3}
       propertyPath: m_Name
-      value: GetAlive (2)
+      value: GetAlive_003
       objectReference: {fileID: 0}
     - target: {fileID: 3453779045686976599, guid: a8bf61618dfc52f48b3caca6ad479f29, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 149794786}
   - component: {fileID: 149794787}
   m_Layer: 0
-  m_Name: Platform_10
+  m_Name: Platform_010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1748,7 +1748,7 @@ GameObject:
   - component: {fileID: 156040870}
   - component: {fileID: 156040871}
   m_Layer: 0
-  m_Name: Platform_08
+  m_Name: Platform_008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1949,7 +1949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2348012106956965895, guid: 1a7c7eaf66ba03a468a58d569a08f4a0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2348012106956965895, guid: 1a7c7eaf66ba03a468a58d569a08f4a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1965,7 +1965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2348012106956965912, guid: 1a7c7eaf66ba03a468a58d569a08f4a0, type: 3}
       propertyPath: m_Name
-      value: Enemy_Suelo (1)
+      value: Enemy_Suelo_002
       objectReference: {fileID: 0}
     - target: {fileID: 2348012106956965912, guid: 1a7c7eaf66ba03a468a58d569a08f4a0, type: 3}
       propertyPath: m_TagString
@@ -2013,13 +2013,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1194157085}
-  - {fileID: 1251840847}
-  - {fileID: 344541845}
-  - {fileID: 1988022215}
   - {fileID: 987989660}
   - {fileID: 1325969135}
+  - {fileID: 1251840847}
+  - {fileID: 1988022215}
+  - {fileID: 344541845}
   m_Father: {fileID: 1053550213}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &212670922 stripped
 GameObject:
@@ -2072,7 +2072,7 @@ GameObject:
   - component: {fileID: 232745095}
   - component: {fileID: 232745094}
   m_Layer: 0
-  m_Name: Puerta_002
+  m_Name: Puerta_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2332,7 +2332,7 @@ GameObject:
   - component: {fileID: 250321945}
   - component: {fileID: 250321946}
   m_Layer: 0
-  m_Name: Pinchos
+  m_Name: Pinchos_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2397,11 +2397,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250321942}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.23, y: 0.53, z: 0}
-  m_LocalScale: {x: 3, y: 3.2, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1053550213}
-  m_RootOrder: 6
+  m_Father: {fileID: 2012661476}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &250321945
 MonoBehaviour:
@@ -2489,7 +2489,7 @@ GameObject:
   - component: {fileID: 260512925}
   - component: {fileID: 260512926}
   m_Layer: 0
-  m_Name: Image_13 (4)
+  m_Name: Image_005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2597,7 +2597,7 @@ Transform:
   - {fileID: 1249102813}
   - {fileID: 754882012}
   m_Father: {fileID: 1053550213}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &311262194
 GameObject:
@@ -2610,7 +2610,7 @@ GameObject:
   - component: {fileID: 311262195}
   - component: {fileID: 311262196}
   m_Layer: 0
-  m_Name: Puerta_004 (6)
+  m_Name: Pared_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2733,7 +2733,7 @@ GameObject:
   - component: {fileID: 336467582}
   - component: {fileID: 336467583}
   m_Layer: 0
-  m_Name: Platform_09
+  m_Name: Platform_009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2846,7 +2846,7 @@ GameObject:
   - component: {fileID: 344534146}
   - component: {fileID: 344534147}
   m_Layer: 0
-  m_Name: Puerta_004 (5)
+  m_Name: Pared_006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2929,7 +2929,7 @@ GameObject:
   - component: {fileID: 344541844}
   - component: {fileID: 344541846}
   m_Layer: 0
-  m_Name: PlayerOut
+  m_Name: PlayerOut_003
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2973,7 +2973,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 184562721}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &344541846
 MonoBehaviour:
@@ -3243,7 +3243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 403796027}
   m_Layer: 0
-  m_Name: PuntosPatrulla
+  m_Name: PuntosPatrulla_001
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3274,7 +3274,7 @@ GameObject:
   - component: {fileID: 418452155}
   - component: {fileID: 418452156}
   m_Layer: 0
-  m_Name: lampara_001 (9)
+  m_Name: Lampara_010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3356,7 +3356,7 @@ GameObject:
   - component: {fileID: 422128089}
   - component: {fileID: 422128090}
   m_Layer: 0
-  m_Name: pared (9)
+  m_Name: Pared_021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3474,7 +3474,7 @@ GameObject:
   - component: {fileID: 428456436}
   - component: {fileID: 428456438}
   m_Layer: 0
-  m_Name: Platform_01 (1)
+  m_Name: Platform_020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3582,7 +3582,7 @@ GameObject:
   - component: {fileID: 436313248}
   - component: {fileID: 436313249}
   m_Layer: 0
-  m_Name: pared (2)
+  m_Name: Pared_014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3706,7 +3706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (7)
+      value: Sierra_007
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -3721,7 +3721,7 @@ GameObject:
   - component: {fileID: 449817229}
   - component: {fileID: 449817230}
   m_Layer: 0
-  m_Name: Puerta_004 (2)
+  m_Name: Pared_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3804,7 +3804,7 @@ GameObject:
   - component: {fileID: 460166390}
   - component: {fileID: 460166391}
   m_Layer: 0
-  m_Name: Platform_03
+  m_Name: Platform_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3913,7 +3913,7 @@ GameObject:
   - component: {fileID: 466004523}
   - component: {fileID: 466004522}
   m_Layer: 5
-  m_Name: Text_Enemies
+  m_Name: Text_Enemies_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4192,7 +4192,7 @@ GameObject:
   - component: {fileID: 481837204}
   - component: {fileID: 481837205}
   m_Layer: 0
-  m_Name: lampara_001 (4)
+  m_Name: Lampara_005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4316,7 +4316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (11)
+      value: Sierra_010
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -4331,7 +4331,7 @@ GameObject:
   - component: {fileID: 494276223}
   - component: {fileID: 494276224}
   m_Layer: 0
-  m_Name: pared (7)
+  m_Name: Pared_008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4453,7 +4453,7 @@ Transform:
   - {fileID: 2067816014}
   - {fileID: 884780137}
   m_Father: {fileID: 1053550213}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &566639169 stripped
 GameObject:
@@ -4506,7 +4506,7 @@ GameObject:
   - component: {fileID: 596272882}
   - component: {fileID: 596272883}
   m_Layer: 0
-  m_Name: pared (14)
+  m_Name: Pared_026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4670,7 +4670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3453779045184467231, guid: a8bf61618dfc52f48b3caca6ad479f29, type: 3}
       propertyPath: m_Name
-      value: GetAlive
+      value: GetAlive_001
       objectReference: {fileID: 0}
     - target: {fileID: 3453779045686976600, guid: a8bf61618dfc52f48b3caca6ad479f29, type: 3}
       propertyPath: m_Color.a
@@ -4690,7 +4690,7 @@ GameObject:
   - component: {fileID: 604152693}
   - component: {fileID: 604152692}
   m_Layer: 5
-  m_Name: Text_Score
+  m_Name: Text_Score_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4945,7 +4945,7 @@ GameObject:
   - component: {fileID: 633209070}
   - component: {fileID: 633209071}
   m_Layer: 0
-  m_Name: pared (11)
+  m_Name: Pared_023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5027,7 +5027,7 @@ GameObject:
   - component: {fileID: 637081304}
   - component: {fileID: 637081305}
   m_Layer: 0
-  m_Name: pared (5)
+  m_Name: Pared_017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5113,7 +5113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664807229}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: PuntosPatrulla_003
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5191,7 +5191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (2)
+      value: Sierra_002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -5205,7 +5205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 696359181}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: PuntosPatrulla_004
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5238,7 +5238,7 @@ GameObject:
   - component: {fileID: 740107492}
   - component: {fileID: 740107493}
   m_Layer: 0
-  m_Name: Platform_19_Movible
+  m_Name: Platform_016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5401,7 +5401,7 @@ GameObject:
   - component: {fileID: 754882013}
   - component: {fileID: 754882014}
   m_Layer: 0
-  m_Name: Platform_01
+  m_Name: Plataforma_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5509,7 +5509,7 @@ GameObject:
   - component: {fileID: 760369292}
   - component: {fileID: 760369293}
   m_Layer: 0
-  m_Name: Image_13 (3)
+  m_Name: Image_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5603,7 +5603,7 @@ GameObject:
   - component: {fileID: 813609080}
   - component: {fileID: 813609079}
   m_Layer: 5
-  m_Name: Text_Get_Alive02
+  m_Name: Text_GetAlive_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5783,7 +5783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845049456}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.44, y: -0.03999996, z: -10}
+  m_LocalPosition: {x: 0.35, y: -0.03999996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2106442864}
@@ -5814,7 +5814,7 @@ GameObject:
   - component: {fileID: 845732890}
   - component: {fileID: 845732891}
   m_Layer: 0
-  m_Name: lampara_001 (1)
+  m_Name: Lampara_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5901,7 +5901,7 @@ GameObject:
   - component: {fileID: 884780137}
   - component: {fileID: 884780138}
   m_Layer: 0
-  m_Name: lampara_001 (12)
+  m_Name: Lampara_013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5983,7 +5983,7 @@ GameObject:
   - component: {fileID: 891468626}
   - component: {fileID: 891468627}
   m_Layer: 0
-  m_Name: Image_13 (1)
+  m_Name: Image_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6067,7 +6067,7 @@ GameObject:
   - component: {fileID: 900725149}
   - component: {fileID: 900725148}
   m_Layer: 0
-  m_Name: Pinchos (2)
+  m_Name: Pinchos_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6081,11 +6081,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900725146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.55, y: 0.58, z: 0}
-  m_LocalScale: {x: 3, y: 3.2, z: 1}
+  m_LocalPosition: {x: 16.593334, y: 0.015625004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1053550213}
-  m_RootOrder: 8
+  m_Father: {fileID: 2012661476}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &900725148
 BoxCollider2D:
@@ -6191,7 +6191,7 @@ GameObject:
   - component: {fileID: 905736241}
   - component: {fileID: 905736242}
   m_Layer: 0
-  m_Name: Platform_07_Movible
+  m_Name: Platform_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6400,7 +6400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (22)
+      value: Sierra_013
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -6461,7 +6461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3453779045184467231, guid: a8bf61618dfc52f48b3caca6ad479f29, type: 3}
       propertyPath: m_Name
-      value: GetAlive (1)
+      value: GetAlive_002
       objectReference: {fileID: 0}
     - target: {fileID: 3453779045686976600, guid: a8bf61618dfc52f48b3caca6ad479f29, type: 3}
       propertyPath: m_Color.a
@@ -6499,7 +6499,7 @@ GameObject:
   - component: {fileID: 987989662}
   - component: {fileID: 987989661}
   m_Layer: 0
-  m_Name: PlayerIN (1)
+  m_Name: PlayerIN_002
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -6517,7 +6517,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 184562721}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &987989661
 MonoBehaviour:
@@ -6616,7 +6616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (15)
+      value: Sierra_019
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -6671,7 +6671,7 @@ GameObject:
   - component: {fileID: 1014876234}
   - component: {fileID: 1014876235}
   m_Layer: 0
-  m_Name: lampara_001 (2)
+  m_Name: Lampara_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6753,7 +6753,7 @@ GameObject:
   - component: {fileID: 1026571589}
   - component: {fileID: 1026571590}
   m_Layer: 0
-  m_Name: pared (4)
+  m_Name: Pared_005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6839,7 +6839,7 @@ GameObject:
   - component: {fileID: 1043222762}
   - component: {fileID: 1043222761}
   m_Layer: 0
-  m_Name: Puerta_002 (1)
+  m_Name: 'Puerta_002 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7080,7 +7080,7 @@ GameObject:
   - component: {fileID: 1049849021}
   - component: {fileID: 1049849022}
   m_Layer: 0
-  m_Name: Platform_04
+  m_Name: Platform_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7225,13 +7225,11 @@ Transform:
   m_Children:
   - {fileID: 477232520}
   - {fileID: 1249096387}
+  - {fileID: 2012661476}
   - {fileID: 1829153988}
   - {fileID: 566269572}
   - {fileID: 1423389806}
   - {fileID: 284418643}
-  - {fileID: 250321944}
-  - {fileID: 1198456196}
-  - {fileID: 900725147}
   - {fileID: 184562721}
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -7248,7 +7246,7 @@ GameObject:
   - component: {fileID: 1058354778}
   - component: {fileID: 1058354779}
   m_Layer: 0
-  m_Name: Platform_02_Movible
+  m_Name: Platform_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7382,7 +7380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285581784855799600, guid: 47ea83a9170f30040b0806e9a8b96e1b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4285581784855799600, guid: 47ea83a9170f30040b0806e9a8b96e1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7398,7 +7396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285581784855799603, guid: 47ea83a9170f30040b0806e9a8b96e1b, type: 3}
       propertyPath: m_Name
-      value: Enemy_volador (1)
+      value: Enemy_volador_001
       objectReference: {fileID: 0}
     - target: {fileID: 4285581784855799612, guid: 47ea83a9170f30040b0806e9a8b96e1b, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -7437,7 +7435,7 @@ GameObject:
   - component: {fileID: 1072301350}
   - component: {fileID: 1072301351}
   m_Layer: 0
-  m_Name: pared (10)
+  m_Name: Pared_022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7708,7 +7706,7 @@ GameObject:
   - component: {fileID: 1087337950}
   - component: {fileID: 1087337951}
   m_Layer: 0
-  m_Name: pared (9)
+  m_Name: Pared_010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7790,7 +7788,7 @@ GameObject:
   - component: {fileID: 1099639988}
   - component: {fileID: 1099639989}
   m_Layer: 0
-  m_Name: pared (7)
+  m_Name: Pared_019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7872,7 +7870,7 @@ GameObject:
   - component: {fileID: 1108513993}
   - component: {fileID: 1108513994}
   m_Layer: 0
-  m_Name: pared (17)
+  m_Name: Pared_029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7955,7 +7953,7 @@ GameObject:
   - component: {fileID: 1114569525}
   - component: {fileID: 1114569526}
   m_Layer: 0
-  m_Name: Platform_15
+  m_Name: Platform_014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8063,7 +8061,7 @@ GameObject:
   - component: {fileID: 1121136406}
   - component: {fileID: 1121136407}
   m_Layer: 0
-  m_Name: lampara_001 (7)
+  m_Name: Lampara_008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8262,7 +8260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (4)
+      value: Sierra_004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -8278,7 +8276,7 @@ GameObject:
   - component: {fileID: 1152680263}
   - component: {fileID: 1152680262}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Heart_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8368,11 +8366,11 @@ Transform:
   m_LocalPosition: {x: 16.30217, y: 0.42385602, z: -1.3399978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 533560292}
   - {fileID: 1338652944}
   - {fileID: 1940103425}
   - {fileID: 1556413197}
   - {fileID: 1413295086}
-  - {fileID: 533560292}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8442,7 +8440,7 @@ GameObject:
   - component: {fileID: 1184161006}
   - component: {fileID: 1184161007}
   m_Layer: 0
-  m_Name: Platform_21_Movible
+  m_Name: Platform_018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8569,7 +8567,7 @@ GameObject:
   - component: {fileID: 1188881258}
   - component: {fileID: 1188881259}
   m_Layer: 0
-  m_Name: lampara_001 (3)
+  m_Name: Lampara_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8687,7 +8685,7 @@ GameObject:
   - component: {fileID: 1194157084}
   - component: {fileID: 1194157083}
   m_Layer: 0
-  m_Name: PlayerIN
+  m_Name: PlayerIN_001
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -16028,7 +16026,7 @@ GameObject:
   - component: {fileID: 1198456198}
   - component: {fileID: 1198456197}
   m_Layer: 0
-  m_Name: Pinchos (1)
+  m_Name: Pinchos_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16042,11 +16040,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198456195}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.9, y: -0.56, z: 0}
-  m_LocalScale: {x: 3, y: 3.2, z: 1}
+  m_LocalPosition: {x: 15.710001, y: -0.340625, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1053550213}
-  m_RootOrder: 7
+  m_Father: {fileID: 2012661476}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1198456197
 BoxCollider2D:
@@ -16151,7 +16149,7 @@ GameObject:
   - component: {fileID: 1212860948}
   - component: {fileID: 1212860949}
   m_Layer: 0
-  m_Name: Platform_11
+  m_Name: Platform_011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16334,7 +16332,7 @@ GameObject:
   - component: {fileID: 1229120357}
   - component: {fileID: 1229120358}
   m_Layer: 0
-  m_Name: pared (6)
+  m_Name: Pared_018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16420,7 +16418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1249096387}
   m_Layer: 0
-  m_Name: verticales
+  m_Name: SierrasVerticales
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16437,9 +16435,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 337362650}
   - {fileID: 848304012}
   - {fileID: 580983421}
-  - {fileID: 337362650}
   - {fileID: 469110014}
   m_Father: {fileID: 1053550213}
   m_RootOrder: 1
@@ -16455,7 +16453,7 @@ GameObject:
   - component: {fileID: 1249102813}
   - component: {fileID: 1249102814}
   m_Layer: 0
-  m_Name: Puerta_004 (7)
+  m_Name: Pared_008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16538,7 +16536,7 @@ GameObject:
   - component: {fileID: 1251840849}
   - component: {fileID: 1251840848}
   m_Layer: 0
-  m_Name: PlayerOut (2)
+  m_Name: PlayerOut_001
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -16556,7 +16554,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 184562721}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1251840848
 MonoBehaviour:
@@ -16611,7 +16609,7 @@ GameObject:
   - component: {fileID: 1253422016}
   - component: {fileID: 1253422017}
   m_Layer: 0
-  m_Name: Platform_13_Movible
+  m_Name: Platform_013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16738,7 +16736,7 @@ GameObject:
   - component: {fileID: 1254557970}
   - component: {fileID: 1254557971}
   m_Layer: 0
-  m_Name: pared (10)
+  m_Name: Pared_011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16906,7 +16904,7 @@ GameObject:
   - component: {fileID: 1294871977}
   - component: {fileID: 1294871976}
   m_Layer: 5
-  m_Name: Text_Get_Alive01
+  m_Name: Text_GetAlive_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17157,7 +17155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (19)
+      value: Sierra_009
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -17173,7 +17171,7 @@ GameObject:
   - component: {fileID: 1325969137}
   - component: {fileID: 1325969136}
   m_Layer: 0
-  m_Name: PlayerIN (2)
+  m_Name: PlayerIN_003
   m_TagString: Untagged
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -17191,7 +17189,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 184562721}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1325969136
 MonoBehaviour:
@@ -17574,7 +17572,7 @@ GameObject:
   - component: {fileID: 1384613857}
   - component: {fileID: 1384613858}
   m_Layer: 0
-  m_Name: pared (18)
+  m_Name: Pared_030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17656,7 +17654,7 @@ GameObject:
   - component: {fileID: 1384947111}
   - component: {fileID: 1384947112}
   m_Layer: 0
-  m_Name: pared (4)
+  m_Name: Pared_016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17738,7 +17736,7 @@ GameObject:
   - component: {fileID: 1400618951}
   - component: {fileID: 1400618952}
   m_Layer: 0
-  m_Name: pared (8)
+  m_Name: Pared_009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17820,7 +17818,7 @@ GameObject:
   - component: {fileID: 1402734223}
   - component: {fileID: 1402734224}
   m_Layer: 0
-  m_Name: lampara_001 (8)
+  m_Name: Lampara_009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18032,7 +18030,7 @@ Transform:
   - {fileID: 232745090}
   - {fileID: 1043222758}
   m_Father: {fileID: 1053550213}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1440937573
 GameObject:
@@ -18045,7 +18043,7 @@ GameObject:
   - component: {fileID: 1440937574}
   - component: {fileID: 1440937575}
   m_Layer: 0
-  m_Name: pared (2)
+  m_Name: Pared_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18132,7 +18130,7 @@ GameObject:
   - component: {fileID: 1474851363}
   - component: {fileID: 1474851364}
   m_Layer: 0
-  m_Name: pared (3)
+  m_Name: Pared_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18214,7 +18212,7 @@ GameObject:
   - component: {fileID: 1476870708}
   - component: {fileID: 1476870709}
   m_Layer: 0
-  m_Name: Image_13
+  m_Name: Image_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18296,7 +18294,7 @@ GameObject:
   - component: {fileID: 1528638159}
   - component: {fileID: 1528638160}
   m_Layer: 0
-  m_Name: lampara_001 (6)
+  m_Name: Lampara_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18420,7 +18418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (3)
+      value: Sierra_003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -18576,7 +18574,7 @@ GameObject:
   - component: {fileID: 1586472232}
   - component: {fileID: 1586472233}
   m_Layer: 0
-  m_Name: Puerta_004 (4)
+  m_Name: Pared_005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18730,7 +18728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (14)
+      value: Sierra_018
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -18882,7 +18880,7 @@ GameObject:
   - component: {fileID: 1609607874}
   - component: {fileID: 1609607873}
   m_Layer: 5
-  m_Name: Text_Enemies
+  m_Name: Text_Enemies_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18996,7 +18994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1623292201}
   m_Layer: 0
-  m_Name: PuntosPatrulla1
+  m_Name: PuntosPatrulla_002
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -19028,7 +19026,7 @@ GameObject:
   - component: {fileID: 1623690842}
   - component: {fileID: 1623690843}
   m_Layer: 0
-  m_Name: pared (1)
+  m_Name: Pared_013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19136,7 +19134,7 @@ GameObject:
   - component: {fileID: 1630845866}
   - component: {fileID: 1630845867}
   m_Layer: 0
-  m_Name: Puerta_004 (1)
+  m_Name: Pared_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19219,7 +19217,7 @@ GameObject:
   - component: {fileID: 1634423921}
   - component: {fileID: 1634423922}
   m_Layer: 0
-  m_Name: Platform_05
+  m_Name: Platform_005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19327,7 +19325,7 @@ GameObject:
   - component: {fileID: 1651190491}
   - component: {fileID: 1651190492}
   m_Layer: 0
-  m_Name: pared (16)
+  m_Name: Pared_028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19410,7 +19408,7 @@ GameObject:
   - component: {fileID: 1664789847}
   - component: {fileID: 1664789846}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Heart_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19526,7 +19524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (10)
+      value: Sierra_008
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -19542,7 +19540,7 @@ GameObject:
   - component: {fileID: 1671796996}
   - component: {fileID: 1671796995}
   m_Layer: 0
-  m_Name: Platform_11 (1)
+  m_Name: Platform_021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19730,7 +19728,7 @@ GameObject:
   - component: {fileID: 1693265089}
   - component: {fileID: 1693265088}
   m_Layer: 5
-  m_Name: Text_Get_Alive
+  m_Name: Text_GetAlive_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19808,7 +19806,7 @@ GameObject:
   - component: {fileID: 1720133884}
   - component: {fileID: 1720133885}
   m_Layer: 0
-  m_Name: pared (13)
+  m_Name: Pared_025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19890,7 +19888,7 @@ GameObject:
   - component: {fileID: 1750353877}
   - component: {fileID: 1750353878}
   m_Layer: 0
-  m_Name: pared (11)
+  m_Name: Pared_012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19974,7 +19972,7 @@ GameObject:
   - component: {fileID: 1766975436}
   - component: {fileID: 1766975437}
   m_Layer: 0
-  m_Name: Platform_06_Movible
+  m_Name: Platform_006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20143,7 +20141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (12)
+      value: Sierra_017
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -20277,7 +20275,7 @@ GameObject:
   - component: {fileID: 1798163627}
   - component: {fileID: 1798163628}
   m_Layer: 0
-  m_Name: pared (12)
+  m_Name: Pared_024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20360,7 +20358,7 @@ GameObject:
   - component: {fileID: 1798760027}
   - component: {fileID: 1798760028}
   m_Layer: 0
-  m_Name: Platform_12
+  m_Name: Platform_012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20468,7 +20466,7 @@ GameObject:
   - component: {fileID: 1798760638}
   - component: {fileID: 1798760639}
   m_Layer: 0
-  m_Name: pared (5)
+  m_Name: Pared_006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20592,7 +20590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (13)
+      value: Sierra_014
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -20654,7 +20652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (1)
+      value: Sierra_001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -20716,7 +20714,7 @@ Transform:
   - {fileID: 1108513993}
   - {fileID: 1384613857}
   m_Father: {fileID: 1053550213}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1840997555
 GameObject:
@@ -20807,7 +20805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (16)
+      value: Sierra_020
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -20862,7 +20860,7 @@ GameObject:
   - component: {fileID: 1901190155}
   - component: {fileID: 1901190156}
   m_Layer: 0
-  m_Name: lampara_001 (5)
+  m_Name: Lampara_006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21075,7 +21073,7 @@ GameObject:
   - component: {fileID: 1913961708}
   - component: {fileID: 1913961709}
   m_Layer: 0
-  m_Name: pared (8)
+  m_Name: Pared_020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21157,7 +21155,7 @@ GameObject:
   - component: {fileID: 1920733957}
   - component: {fileID: 1920733958}
   m_Layer: 0
-  m_Name: pared (1)
+  m_Name: Pared_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21239,7 +21237,7 @@ GameObject:
   - component: {fileID: 1925772617}
   - component: {fileID: 1925772618}
   m_Layer: 0
-  m_Name: lampara_001 (10)
+  m_Name: Lampara_011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21503,7 +21501,7 @@ GameObject:
   - component: {fileID: 1950979448}
   - component: {fileID: 1950979447}
   m_Layer: 5
-  m_Name: Text_Score
+  m_Name: Text_Score_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21586,7 +21584,7 @@ GameObject:
   - component: {fileID: 1974277088}
   - component: {fileID: 1974277089}
   m_Layer: 0
-  m_Name: Image_13 (5)
+  m_Name: Image_006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21669,7 +21667,7 @@ GameObject:
   - component: {fileID: 1987911987}
   - component: {fileID: 1987911986}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Heart_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21744,7 +21742,7 @@ GameObject:
   - component: {fileID: 1988022217}
   - component: {fileID: 1988022216}
   m_Layer: 0
-  m_Name: PlayerOut (1)
+  m_Name: PlayerOut_002
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -21762,7 +21760,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 184562721}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1988022216
 MonoBehaviour:
@@ -21928,7 +21926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (21)
+      value: Sierra_012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -21972,6 +21970,39 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 5200181322695554577, guid: 05a68ca5b4821c7489765ea990708481, type: 3}
   m_PrefabInstance: {fileID: 5200181320857764057}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2012661475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2012661476}
+  m_Layer: 0
+  m_Name: Pinchos_Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2012661476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012661475}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.23, y: 0.53, z: 0}
+  m_LocalScale: {x: 3, y: 3.2, z: 1}
+  m_Children:
+  - {fileID: 250321944}
+  - {fileID: 1198456196}
+  - {fileID: 900725147}
+  m_Father: {fileID: 1053550213}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2025677599
 GameObject:
   m_ObjectHideFlags: 0
@@ -21983,7 +22014,7 @@ GameObject:
   - component: {fileID: 2025677600}
   - component: {fileID: 2025677601}
   m_Layer: 0
-  m_Name: pared (3)
+  m_Name: Pared_015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22066,7 +22097,7 @@ GameObject:
   - component: {fileID: 2026089836}
   - component: {fileID: 2026089837}
   m_Layer: 0
-  m_Name: pared
+  m_Name: Pared_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22174,7 +22205,7 @@ GameObject:
   - component: {fileID: 2028247459}
   - component: {fileID: 2028247460}
   m_Layer: 0
-  m_Name: Puerta_004 (3)
+  m_Name: Pared_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22257,7 +22288,7 @@ GameObject:
   - component: {fileID: 2030118922}
   - component: {fileID: 2030118921}
   m_Layer: 0
-  m_Name: Platform_15 (1)
+  m_Name: Platform_022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22367,7 +22398,7 @@ GameObject:
   - component: {fileID: 2030761981}
   - component: {fileID: 2030761982}
   m_Layer: 0
-  m_Name: Puerta_004
+  m_Name: Pared_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22563,7 +22594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (5)
+      value: Sierra_005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -22578,7 +22609,7 @@ GameObject:
   - component: {fileID: 2067816014}
   - component: {fileID: 2067816015}
   m_Layer: 0
-  m_Name: lampara_001 (11)
+  m_Name: Lampara_012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22781,7 +22812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (20)
+      value: Sierra_011
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -22796,7 +22827,7 @@ GameObject:
   - component: {fileID: 2088035745}
   - component: {fileID: 2088035746}
   m_Layer: 0
-  m_Name: pared (15)
+  m_Name: Pared_027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23040,7 +23071,7 @@ GameObject:
   - component: {fileID: 2107347837}
   - component: {fileID: 2107347838}
   m_Layer: 0
-  m_Name: Image_13 (2)
+  m_Name: Image_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23164,7 +23195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5956136068195156729, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
       propertyPath: m_Name
-      value: Sierra (8)
+      value: Sierra_015
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71f5e35b44c732b419b0fb1ceaf2c154, type: 3}
@@ -23315,7 +23346,7 @@ GameObject:
   - component: {fileID: 2131183066}
   - component: {fileID: 2131183067}
   m_Layer: 0
-  m_Name: lampara_001
+  m_Name: Lampara_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23399,7 +23430,7 @@ GameObject:
   - component: {fileID: 2135159651}
   - component: {fileID: 2135159652}
   m_Layer: 0
-  m_Name: Platform_16_Movible
+  m_Name: Platform_015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23527,7 +23558,7 @@ GameObject:
   - component: {fileID: 2141450980}
   - component: {fileID: 2141450979}
   m_Layer: 0
-  m_Name: Platform_15 (2)
+  m_Name: Platform_023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23750,7 +23781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2348012106956965895, guid: 1a7c7eaf66ba03a468a58d569a08f4a0, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2348012106956965895, guid: 1a7c7eaf66ba03a468a58d569a08f4a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23766,7 +23797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2348012106956965912, guid: 1a7c7eaf66ba03a468a58d569a08f4a0, type: 3}
       propertyPath: m_Name
-      value: Enemy_Suelo
+      value: Enemy_Suelo_001
       objectReference: {fileID: 0}
     - target: {fileID: 2348012106956965912, guid: 1a7c7eaf66ba03a468a58d569a08f4a0, type: 3}
       propertyPath: m_TagString
@@ -23785,7 +23816,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 996129415106225767, guid: 0c287b447c4283e41957fbfb195f8af3, type: 3}
       propertyPath: m_Name
-      value: Sierra_vertical (4)
+      value: Sierra_vertical_003
       objectReference: {fileID: 0}
     - target: {fileID: 4700279522554832211, guid: 0c287b447c4283e41957fbfb195f8af3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23882,7 +23913,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3393671972254629194, guid: 3ac56c0dda7b7cc489a661cf2bb2501e, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3393671972254629194, guid: 3ac56c0dda7b7cc489a661cf2bb2501e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23898,7 +23929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3393671972254629197, guid: 3ac56c0dda7b7cc489a661cf2bb2501e, type: 3}
       propertyPath: m_Name
-      value: Enemy_Pesado
+      value: Enemy_Pesado_001
       objectReference: {fileID: 0}
     - target: {fileID: 3393671972254629197, guid: 3ac56c0dda7b7cc489a661cf2bb2501e, type: 3}
       propertyPath: m_TagString
@@ -24004,7 +24035,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6229613158100324817, guid: 18a610dae17dc954a950643a3dc11838, type: 3}
       propertyPath: m_Name
-      value: Sierra_vertical (2)
+      value: Sierra_vertical_002
       objectReference: {fileID: 0}
     - target: {fileID: 7101784974590752505, guid: 18a610dae17dc954a950643a3dc11838, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24036,7 +24067,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7101784974590752505, guid: 18a610dae17dc954a950643a3dc11838, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7101784974590752505, guid: 18a610dae17dc954a950643a3dc11838, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24089,7 +24120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1711391557412383443, guid: 143195d843aa02746a68b620b96fc807, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1711391557412383443, guid: 143195d843aa02746a68b620b96fc807, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24215,11 +24246,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451238137093045414, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.87
+      value: -4.99
       objectReference: {fileID: 0}
     - target: {fileID: 5451238137093045414, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.64
+      value: -3.77
       objectReference: {fileID: 0}
     - target: {fileID: 5451238137093045414, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24308,7 +24339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 646844450052678020, guid: 16eafbd0a554898488efbfbb00ce5809, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 646844450052678020, guid: 16eafbd0a554898488efbfbb00ce5809, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24324,7 +24355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8889304664843336889, guid: 16eafbd0a554898488efbfbb00ce5809, type: 3}
       propertyPath: m_Name
-      value: Sierra_vertical
+      value: Sierra_vertical_001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16eafbd0a554898488efbfbb00ce5809, type: 3}
