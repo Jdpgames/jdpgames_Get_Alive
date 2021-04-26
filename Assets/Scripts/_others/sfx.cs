@@ -12,7 +12,7 @@ public class sfx : MonoBehaviour
     public AudioClip EnemyFire;
     public AudioClip EnemyHurt;
     public AudioSource Effects; // el audiosource al que vamos a vincular.
-
+    
     private void Awake()
     {
 
