@@ -11,6 +11,7 @@ public class VolumeControl : MonoBehaviour
 
   private void Start()
     {
+        
         AudioSource.Play(); // audiosource comienza reproduciendose.
         MusicVolume = PlayerPrefs.GetFloat("Volume"); // obtiene las preferencias y las guarda en musicvolume.
         AudioSource.volume = MusicVolume; // audiosource se ajustara a musicvolume.
@@ -27,6 +28,6 @@ public class VolumeControl : MonoBehaviour
     public void VolumeUpdate(float volume)
     {
         MusicVolume = volume; // musicvolume tendra un valor float, que controlaremos con el slider de la escena options en unity.
-
+       
     }
 }
