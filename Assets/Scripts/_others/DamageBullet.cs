@@ -7,14 +7,16 @@ public class DamageBullet : MonoBehaviour
     public int CantidadDaño = 1;
 
     // si colisiona con el player,accede al script playerhealt y le resta 1 de vida. 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.tag == ("Player"))
+
+        if (collision.gameObject.tag == "Player")
         {
-            other.GetComponent<PlayerHealth>().RestarVida(CantidadDaño);
+            PlayerHealth.instance.RestarVida(CantidadDaño);
+            Destroy(gameObject); // despues de restar vida desaparece.
 
         }
-
+        else Destroy(gameObject); // si no colisiona con player desaparece al caer al suelo.
     }
 
 }

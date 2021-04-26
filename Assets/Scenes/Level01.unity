@@ -2181,7 +2181,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 60
+  m_Mass: 250
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -6947,7 +6947,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 30
+  m_Mass: 250
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -24242,6 +24242,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5451238137093045412, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5451238137093045414, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -24292,11 +24296,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451238137580980546, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
       propertyPath: m_Offset.y
-      value: -0.6525214
+      value: -0.678017
       objectReference: {fileID: 0}
     - target: {fileID: 5451238137580980546, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
       propertyPath: m_Size.y
-      value: 0.07401371
+      value: 0.125005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5964daf19a32f0408ab61f648c6b183, type: 3}
