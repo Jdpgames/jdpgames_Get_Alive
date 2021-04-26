@@ -18,13 +18,12 @@ public class sfx : MonoBehaviour
 
         if (sfx.instance == null)
         {
-            sfx.instance = this;   // instanciamos la clase y aasi nos aseguramos que no habra 2 Musicingame.
+            sfx.instance = this; // instanciamos la clase y aasi nos aseguramos que no habra 2 Musicingame.
         }
         else if (sfx.instance != this)
         {
             Destroy(gameObject);
         }
-
 
     }
     // Audios de player
@@ -55,17 +54,11 @@ public class sfx : MonoBehaviour
         PlayAudioClip(EnemyHurt);
     }
 
-    
-
-
-
-    public void PlayAudioClip(AudioClip audioClip)  // Con esta funcion nos ahorraremos de hacer una función de reproducción por cada clip. 
+    public void PlayAudioClip(AudioClip audioClip) // Con esta funcion nos ahorraremos de hacer una función de reproducción por cada clip. 
     {
         Effects.clip = audioClip;
         Effects.Play();
-        
+
     }
-
-
 
 }

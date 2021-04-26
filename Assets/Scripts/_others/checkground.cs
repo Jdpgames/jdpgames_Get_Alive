@@ -13,13 +13,9 @@ public class checkground : MonoBehaviour
         isGrounded = true;
     }
 
-
-
     private void OnTriggerExit2D(Collider2D collision)
     {
         isGrounded = false;
     }
-
-
 
 }

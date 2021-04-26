@@ -18,7 +18,5 @@ public class bullet : MonoBehaviour
 
         Destroy(gameObject, 2); // despues de 2 segundos se destruye.
 
-
-
     }
 }

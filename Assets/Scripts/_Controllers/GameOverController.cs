@@ -3,21 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class GameOverController : MonoBehaviour
 {
-    
-    void Start()
-    {
-        
-    }
-
-    
-    void Update()
-    {
-        
-    }
-
     // al pulsar el boton jugar de nuevo, nos carga el nivel 1.
     public void JugarDeNuevo()
     {
@@ -30,9 +17,7 @@ public class GameOverController : MonoBehaviour
     public void Salir()
     {
         SceneManager.LoadScene("MainMenu");
-      
+
     }
-
-
 
 }

@@ -5,13 +5,12 @@ using UnityEngine.UI;
 public class ItemManager : MonoBehaviour
 {
     public static ItemManager instance; // la instanciamos porque quiero acceder a ella desde otros scripts.
-    public Text text;                   // texto que saldra en pantalla.
-    public int score;                   // puntos que se tienen que actualizar.
+    public Text text; // texto que saldra en pantalla.
+    public int score; // puntos que se tienen que actualizar.
 
     public AudioSource MyAudio;
     private void Start()
     {
-       
 
         if (instance == null)
         {
@@ -20,10 +19,7 @@ public class ItemManager : MonoBehaviour
 
         }
 
-       
-            MyAudio.Stop();
-        
-
+        MyAudio.Stop();
 
     }
     public void changeScore(int coinValue)
@@ -34,15 +30,13 @@ public class ItemManager : MonoBehaviour
 
     }
 
-
     void Update()
     {
-        
+
     }
 
     public void AllItemCollected()
     {
-
 
         if (transform.childCount == 1) // cuando quede uno, me lanza un mensaje, este actual es de prueba.
         {
@@ -50,19 +44,18 @@ public class ItemManager : MonoBehaviour
 
         }
 
-
     }
 
     public void checkWin()
     {
 
-        if (transform.childCount == 0)                  /* aqui en esta funcion comprueba que si no quedan getalives y vamos a la puerta podemos ganar,
-                                                           la puerta comprueba esta condicion, si se cumple que son 0, pasamos pantalla.*/
+        if (transform.childCount == 0)
+        /* aqui en esta funcion comprueba que si no quedan getalives y vamos a la puerta podemos ganar,
+                                                 la puerta comprueba esta condicion, si se cumple que son 0, pasamos pantalla.*/
         {
             Debug.Log(" Level Complete");
 
             LevelManager.Instance.LevelComplete();
-           
 
         }
         // si todavia quedan get alives, no te deja pasar en la puerta, lanza mensaje y sigues jugando.
@@ -72,11 +65,6 @@ public class ItemManager : MonoBehaviour
 
         }
 
-
     }
-
-
-
-
 
 }

@@ -10,7 +10,6 @@ namespace ioc.getAlive.Core
     {
         protected static T _instance;
 
-
         public static T Instance
         {
             get
@@ -28,7 +27,6 @@ namespace ioc.getAlive.Core
 
             }
         }
-
 
         /// </summary>
         protected virtual void Awake()

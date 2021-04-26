@@ -6,16 +6,6 @@ public class DamageBullet : MonoBehaviour
 { // la bala del enemigo quita 1 de vida
     public int CantidadDaño = 1;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     // si colisiona con el player,accede al script playerhealt y le resta 1 de vida. 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -23,12 +13,8 @@ public class DamageBullet : MonoBehaviour
         {
             other.GetComponent<PlayerHealth>().RestarVida(CantidadDaño);
 
-            
-
         }
 
-
-
     }
 
-    }
+}

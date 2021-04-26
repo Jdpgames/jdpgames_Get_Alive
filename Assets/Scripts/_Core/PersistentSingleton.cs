@@ -4,11 +4,17 @@ namespace ioc.getAlive.Core
 
     public class PersistenSingleton<T> : MonoBehaviour where T : PersistenSingleton<T>
     {
-        
+
         public static T Instance
         {
-            get { return ((T)SingletonInstance); }
-            set { SingletonInstance = value; }
+            get
+            {
+                return ((T)SingletonInstance);
+            }
+            set
+            {
+                SingletonInstance = value;
+            }
         }
         private static T m_instance;
         protected bool m_enabled;
@@ -34,7 +40,6 @@ namespace ioc.getAlive.Core
                 m_instance = value as T;
             }
         }
-
 
         protected virtual void Awake()
         {

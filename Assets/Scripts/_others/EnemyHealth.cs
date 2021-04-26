@@ -5,22 +5,18 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int vida = 1; // vida de enemigo.
-    
 
     void Start()
     {
-        vida = 1; 
+        vida = 1;
 
-      
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    
     public void RestarVidaEnemigo(int cantidad)
     {
         vida -= cantidad;
@@ -29,28 +25,19 @@ public class EnemyHealth : MonoBehaviour
         if (vida <= 0)
         {
 
-            Dead();    // si la vida es inferior a 0 activa la funcion dead.
+            Dead(); // si la vida es inferior a 0 activa la funcion dead.
 
         }
 
     }
 
     public void Dead()
-    { 
+    {
         LevelManager.Instance.sumarPuntos();
-        LevelManager.Instance.EnemyDead();  // muere ( destroy) y  suma puntos + actualiza el contador del level report.
+        LevelManager.Instance.EnemyDead(); // muere ( destroy) y  suma puntos + actualiza el contador del level report.
         LevelManager.Instance.contadorFinal();
         Destroy(gameObject);
 
     }
-
-
-
-
-
-
-
-
-
 
 }

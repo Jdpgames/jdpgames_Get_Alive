@@ -11,43 +11,25 @@ public class MusicInGame : MonoBehaviour
 
     private void Awake()
     {
-        if (MusicInGame.instance == null) 
+        if (MusicInGame.instance == null)
         {
-            MusicInGame.instance = this;  // instanciamos la clase y aasi nos aseguramos que no habra 2 Musicingame.
+            MusicInGame.instance = this; // instanciamos la clase y asi nos aseguramos que no habra 2 Musicingame.
         }
-        else if (MusicInGame.instance != this) 
+        else if (MusicInGame.instance != this)
         {
             Destroy(gameObject);
         }
     }
-
-   
-
 
     public void AudioInGame()
     {
         PlayAudioClip(AudioClipInGame1); // Funcion que reproduce el audio.
     }
 
-
-
-
-
-
-
     public void PlayAudioClip(AudioClip audioClip) // Con esta funcion nos ahorraremos de hacer una función de reproducción por cada clip. 
     {
         myAudio.clip = audioClip;
         myAudio.Play();
     }
-
-
-
-
-
-
-
-
-
 
 }

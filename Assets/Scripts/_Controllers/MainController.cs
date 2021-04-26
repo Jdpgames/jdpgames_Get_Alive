@@ -6,14 +6,13 @@ using ioc.getAlive.Managers;
 public class MainController : MonoBehaviour
 {
 
-
-
+    // Este script llama a funciones del GameManager que al presionar esos botones te lleva, esta en la escena MainMenu
+    // pero también, la uso para otras escenas.
     public void Play()
     {
 
         GameManager.Instance.inGame();
     }
-
 
     public void options()
     {
@@ -27,27 +26,16 @@ public class MainController : MonoBehaviour
         GameManager.Instance.ToControls();
     }
 
-
-
     public void MainMenu()
     {
 
         GameManager.Instance.ToMainMenu();
     }
 
-
-
-
-
     public void Exit()
     {
 
         GameManager.Instance.ToExit();
     }
-
-
-
-
-
 
 }

@@ -9,12 +9,10 @@ public class EnemyVolador : MonoBehaviour
     private float ColdDown; // tiempo entre disparo y disparo.
     public Transform Firepoint2; // punto donde se genera la bala.
     public GameObject bullet; // prefab de la bala que suelta.
-    
-
 
     private void Start()
     {
-       
+
     }
 
     // Update is called once per frame
@@ -23,11 +21,11 @@ public class EnemyVolador : MonoBehaviour
         if (John != null) // si no muere, cumple esto.
         {
 
-            float distanceX = Mathf.Abs(John.transform.position.x - transform.position.x);  // calculamos la posicion entre john y este enemigo, en X y Y.
+            float distanceX = Mathf.Abs(John.transform.position.x - transform.position.x); // calculamos la posicion entre john y este enemigo, en X y Y.
             float distanceY = Mathf.Abs(John.transform.position.y - transform.position.y);
 
             if (distanceX < 1.0f && distanceY < 10.0f && Time.time > ColdDown + 0.75f) // si el rango en X es inferior a 1 y en Y a 4  y ha cumplido el coldDown, dispara.
-            {
+      {
                 shoot();
 
                 ColdDown = Time.time;
@@ -41,7 +39,6 @@ public class EnemyVolador : MonoBehaviour
             sfx.instance.AudioEnenmyFire();
 
         }
-
 
     }
 }

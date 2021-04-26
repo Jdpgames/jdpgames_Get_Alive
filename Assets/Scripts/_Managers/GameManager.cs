@@ -4,18 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using ioc.getAlive.Core;
 
-
 namespace ioc.getAlive.Managers
 {
-  public class GameManager : PersistenSingleton<GameManager> // modo persistente para que no muera al cambiar de escena.
-    { 
-        
+    public class GameManager : PersistenSingleton<GameManager> // modo persistente para que no muera al cambiar de escena.
+    {
+
         public enum GameState
         {
             splash,
             MainMenu,
             controles,
-            inGame,    // definimos los estados de las escenas, nos serviran para referirnos a ellos en los casos del switch.
+            inGame, // definimos los estados de las escenas, nos serviran para referirnos a ellos en los casos del switch.
             inGame2,
             Options,
             gameOver,
@@ -23,22 +22,20 @@ namespace ioc.getAlive.Managers
 
         }
 
-
         protected override void Awake()
         {
-            base.Awake(); 
+            base.Awake();
         }
-
 
         protected void Update()
         {
-            
+
         }
 
         // Creamos las funciones que nos serviran para referirnos desde otras clases, dentro tienen los casos del switch.
         public void ToSplash()
         {
-            ChangeState(GameState.splash); 
+            ChangeState(GameState.splash);
 
         }
 
@@ -58,8 +55,6 @@ namespace ioc.getAlive.Managers
 
         }
 
-
-
         public void ToOptions()
         {
             ChangeState(GameState.Options);
@@ -71,9 +66,6 @@ namespace ioc.getAlive.Managers
             ChangeState(GameState.controles);
 
         }
-
-
-
 
         public void ToGameOver()
         {
@@ -87,7 +79,7 @@ namespace ioc.getAlive.Managers
         }
         /* el switch es el gestor de las funciones, segun la funcion que esogemos llama a una corrutina o otra, gracias a los estados,
         que definimos antes */
-      
+
         private void ChangeState(GameState newState)
         {
             switch (newState)
@@ -108,19 +100,13 @@ namespace ioc.getAlive.Managers
                     StartCoroutine(Cargar1("Level02"));
                     break;
 
-
-
                 case GameState.Options:
-                    StartCoroutine( CargarOptions("Options"));
+                    StartCoroutine(CargarOptions("Options"));
                     break;
 
                 case GameState.controles:
                     StartCoroutine(CargarControles("Controles"));
                     break;
-
-
-
-
 
                 case GameState.gameOver:
                     StartCoroutine(cargarGameOver("GameOver"));
@@ -129,85 +115,66 @@ namespace ioc.getAlive.Managers
                     Application.Quit();
                     break;
 
-
             }
             // las corrutinas estan conectadas al cambio de escena a la que nos queremos dirigir.
             IEnumerator Logo(string logo)
             {
-                yield return new WaitForSeconds(1.0f);
+                yield
+                return new WaitForSeconds(1.0f);
                 SceneManager.LoadScene("Splash");
 
-
             }
 
-            IEnumerator Inicio (string inicio)
+            IEnumerator Inicio(string inicio)
             {
-                yield return new WaitForSeconds(1.0f);
+                yield
+                return new WaitForSeconds(1.0f);
                 SceneManager.LoadScene("MainMenu");
 
-
             }
 
-            IEnumerator Cargar (string cargar)
+            IEnumerator Cargar(string cargar)
             {
-                yield return new WaitForSeconds(1.0f);
+                yield
+                return new WaitForSeconds(1.0f);
                 SceneManager.LoadScene("Level01");
-
 
             }
 
             IEnumerator Cargar1(string cargar)
             {
-                yield return new WaitForSeconds(4.0f);
+                yield
+                return new WaitForSeconds(4.0f);
                 SceneManager.LoadScene("Level02");
-
 
             }
 
-
-
             IEnumerator CargarOptions(string cargarOpt)
             {
-                yield return new WaitForSeconds(1.0f);
+                yield
+                return new WaitForSeconds(1.0f);
                 SceneManager.LoadScene("Options");
 
             }
 
             IEnumerator CargarControles(string cargarOpt)
             {
-                yield return new WaitForSeconds(1.0f);
+                yield
+                return new WaitForSeconds(1.0f);
                 SceneManager.LoadScene("Controles");
 
             }
 
-
-
-
             IEnumerator cargarGameOver(string cargarGameO)
             {
-                yield return new WaitForSeconds(2.5f);
+                yield
+                return new WaitForSeconds(2.5f);
                 SceneManager.LoadScene("GameOver");
 
             }
 
-
-
-
-
         }
-
-
-
-
-
-
-
-
-
 
     }
 
-
-
-    
 }
