@@ -14,7 +14,8 @@ public class LevelManager : Singleton<LevelManager>
     public GameObject panelLevelReport; // // referencia para activar el panelLevelReport.
     public Text score; // texto que saldra por la UI del juego.
     public Text Enemies; // texto que saldra por la UI del juego.
-
+    public AudioSource Audio;
+    public AudioClip OpenMenu;
     void Start()
     {
         MusicInGame.instance.AudioInGame();
@@ -45,7 +46,7 @@ public class LevelManager : Singleton<LevelManager>
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-
+            Audio.PlayOneShot(OpenMenu);
             GameIspaused = !GameIspaused; // si pulso escape, el operador logico dará el valor contrario de la operación.
 
         }
@@ -69,13 +70,6 @@ public class LevelManager : Singleton<LevelManager>
     {
         GameIspaused = !GameIspaused; // Salimos y vamos al menu principal y definimos que no estara pausado porque si no, nos sacaria el panelpausa en la escena de MainMenu.
         GameManager.Instance.ToMainMenu();
-
-    }
-
-    public void Opciones()
-    {
-        GameIspaused = !GameIspaused;
-        GameManager.Instance.ToOptions(); // lo mismo que con MainMenu.
 
     }
 

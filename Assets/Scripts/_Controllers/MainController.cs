@@ -15,11 +15,6 @@ public class MainController : MonoBehaviour
         GameManager.Instance.inGame();
     }
 
-    public void options()
-    {
-        Select.Play();
-        GameManager.Instance.ToOptions();
-    }
 
     public void Controls()
     {
