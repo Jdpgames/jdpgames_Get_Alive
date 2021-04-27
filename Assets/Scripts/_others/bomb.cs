@@ -12,7 +12,7 @@ public class bomb : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         myhrb.velocity = transform.up * -speed; // UP en negativo, quiere decir que caera para abajo la bomba.
         Destroy(gameObject, 5f); // despues de 5 segundos la bomba desaparece para ahorrar recursos.

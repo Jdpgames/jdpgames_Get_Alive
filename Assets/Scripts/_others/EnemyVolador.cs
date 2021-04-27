@@ -9,14 +9,14 @@ public class EnemyVolador : MonoBehaviour
     private float ColdDown; // tiempo entre disparo y disparo.
     public Transform Firepoint2; // punto donde se genera la bala.
     public GameObject bullet; // prefab de la bala que suelta.
-
+    private Rigidbody2D Helicoptero;
     private void Start()
     {
-
+        Helicoptero = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (John != null) // si no muere, cumple esto.
         {

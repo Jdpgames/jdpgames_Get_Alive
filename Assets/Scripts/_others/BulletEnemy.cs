@@ -13,7 +13,7 @@ public class BulletEnemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         BulletRgb.velocity = transform.right * -speed; //la dirección de la bala ira a la izquierda.
         Destroy(gameObject, 5); // depues de 5 segundos se destruira.
