@@ -71,6 +71,28 @@ namespace ioc.getAlive.Controller
                 anim.SetBool("Jump", false);
             }
 
+           
+    }
+
+        void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.transform.tag == "Elevator")
+            {
+                Debug.Log("hola");
+                transform.parent = other.transform;
+            }
+        }
+
+        void OnCollisionExit2D(Collision2D other)
+        {
+            if (other.transform.tag == "Elevator")
+            {
+                transform.parent = null;
+            }
+
         }
     }
+
+
+
 }

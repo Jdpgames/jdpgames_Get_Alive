@@ -20,6 +20,13 @@ public class cameraFollow : MonoBehaviour
             transform.position = new Vector3(72.1f, 0, -10);
 
         }
+        // si la posición de john es inferior deja de seguirle y se quedara fija en -3.51f
+        if (john != null && john.transform.position.x <-3.50f)
+        {
+
+            transform.position = new Vector3(-3.51f, 0, -10);
+
+        }
 
     }
 }
