@@ -7,11 +7,11 @@ public class ItemManager : MonoBehaviour
     public static ItemManager instance; // la instanciamos porque quiero acceder a ella desde otros scripts.
     public Text text; // texto que saldra en pantalla.
     public int score; // puntos que se tienen que actualizar.
-
+    public Text Text_NoWin;
     public AudioSource MyAudio;
     private void Start()
     {
-
+        Text_NoWin.gameObject.SetActive(false);
         if (instance == null)
         {
 
@@ -61,7 +61,8 @@ public class ItemManager : MonoBehaviour
         // si todavia quedan get alives, no te deja pasar en la puerta, lanza mensaje y sigues jugando.
         else if (transform.childCount >= 1)
         {
-            Debug.Log(" objetivo no Cumplido, sigue jugando");
+           
+            Text_NoWin.gameObject.SetActive(true);
 
         }
 
