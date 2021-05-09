@@ -25,7 +25,7 @@ namespace ioc.getAlive.Controller
             yield
             return new WaitForSeconds(2.0f);
 
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("Movie");
 
         }
 

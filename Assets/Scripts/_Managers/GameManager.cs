@@ -12,6 +12,7 @@ namespace ioc.getAlive.Managers
         public enum GameState
         {
             splash,
+            movie,
             MainMenu,
             controles,
             inGame, // definimos los estados de las escenas, nos serviran para referirnos a ellos en los casos del switch.
@@ -37,6 +38,13 @@ namespace ioc.getAlive.Managers
             ChangeState(GameState.splash);
 
         }
+
+        public void ToMovie()
+        {
+            ChangeState(GameState.movie);
+
+        }
+
 
         public void ToMainMenu()
         {
@@ -82,6 +90,10 @@ namespace ioc.getAlive.Managers
                     StartCoroutine(Logo("Splash"));
                     break;
 
+                case GameState.movie:
+                    StartCoroutine(ToMovie("Movie"));
+                    break;
+
                 case GameState.MainMenu:
                     StartCoroutine(Inicio("MainMenu"));
                     break;
@@ -110,6 +122,14 @@ namespace ioc.getAlive.Managers
                 yield
                 return new WaitForSeconds(1.0f);
                 SceneManager.LoadScene("Splash");
+
+            }
+
+            IEnumerator ToMovie(string movie)
+            {
+                yield
+                return new WaitForSeconds(1.0f);
+                SceneManager.LoadScene("Movie");
 
             }
 
