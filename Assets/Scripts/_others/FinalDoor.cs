@@ -12,7 +12,7 @@ public class FinalDoor : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
 
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("Creditos");
 
         }
     }
