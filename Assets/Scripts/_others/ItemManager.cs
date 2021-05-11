@@ -40,7 +40,7 @@ public class ItemManager : MonoBehaviour
 
         if (transform.childCount == 1) // cuando quede uno, me lanza un mensaje, este actual es de prueba.
         {
-            Debug.Log(" objetivo Cumplido");
+           
 
         }
 
@@ -53,7 +53,7 @@ public class ItemManager : MonoBehaviour
         /* aqui en esta funcion comprueba que si no quedan getalives y vamos a la puerta podemos ganar,
                                                  la puerta comprueba esta condicion, si se cumple que son 0, pasamos pantalla.*/
         {
-            Debug.Log(" Level Complete");
+            
 
             LevelManager.Instance.LevelComplete();
 
