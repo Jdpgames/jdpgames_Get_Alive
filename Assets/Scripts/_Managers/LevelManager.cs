@@ -106,7 +106,11 @@ public class LevelManager : Singleton<LevelManager>
     {
         panelLevelReport.SetActive(true);
 
-        GameManager.Instance.inGame2(); // si el player gana, LevelManager le manda a cargar la escena 2 que la contiene el GameManager.
+        GameManager.Instance.inGame2();
 
     }
+
+   
+
+
 }
