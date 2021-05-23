@@ -20,7 +20,7 @@ public class MovieController : MonoBehaviour
     IEnumerator CargarMenu()
     {
         yield
-        return new WaitForSeconds(70.0f);
+        return new WaitForSeconds(69.5f);
 
         SceneManager.LoadScene("MainMenu");
 
